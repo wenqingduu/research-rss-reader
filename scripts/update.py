@@ -33,6 +33,7 @@ FEEDS = [
     ('Google DeepMind', 'research', 'https://deepmind.google/blog/rss.xml', 'official'),
     ('Anthropic Research', 'research', 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml', 'third-party'),
     ('Anthropic Engineering', 'research', 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml', 'third-party'),
+    ('Claude Blog', 'news', 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_claude.xml', 'third-party'),
     ('OpenAI News', 'news', 'https://openai.com/news/rss.xml', 'official'),
 ]
 
@@ -95,7 +96,8 @@ def make_item(title: str, summary: str, url: str, *, source: str, group: str,
     if not title or not url:
         return None
     tags = get_tags(title, summary)
-    if not tags:
+    # Preserve company announcements as well as keyword-matched research papers.
+    if not tags and group == 'papers':
         return None
     doc_id = hashlib.sha256(url.encode('utf-8')).hexdigest()[:20]
     return {'id': doc_id, 'title': title, 'summary': summary,
@@ -203,15 +205,18 @@ def main() -> int:
         print('No sources were reachable; preserving previous data and failing this run', file=sys.stderr)
         return 1
     records = sorted(store.values(), key=lambda x: x.get('published') or '', reverse=True)
-    kept = {'papers': 230, 'research': 100, 'news': 90}
+    kept = {'papers': 450, 'research': 260, 'news': 260}
     counters = {k:0 for k in kept}
+    by_source = {}
     trimmed = []
     for x in records:
         g=x.get('group', 'news')
-        if g not in kept or counters[g]>=kept[g]:
+        src=x.get('source','')
+        if g not in kept or counters[g]>=kept[g] or by_source.get(src, 0) >= 140:
             continue
         trimmed.append(x)
         counters[g]+=1
+        by_source[src]=by_source.get(src, 0)+1
     output={'updated_at': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
             'articles': trimmed, 'sources_status': statuses}
     DEST.parent.mkdir(parents=True, exist_ok=True)
