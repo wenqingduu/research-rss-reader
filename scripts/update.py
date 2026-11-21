@@ -177,6 +177,13 @@ def main() -> int:
         old = {}
     previous = [x for x in old.get('articles', []) if isinstance(x, dict)]
     store = {dedupe_key(x['url']): x for x in previous if x.get('url') and x.get('title')}
+    def insert(item: dict) -> None:
+        key = dedupe_key(item['url'])
+        old_item = store.get(key)
+        if old_item and old_item.get('title') == item['title'] and old_item.get('title_zh'):
+            item['title_zh'] = old_item['title_zh']
+        store[key] = item
+
     statuses = []
     succeeded = 0
     s = session()
@@ -184,7 +191,7 @@ def main() -> int:
         try:
             items = read_feed(s, src, group, url, origin)
             for x in items:
-                store[dedupe_key(x['url'])] = x
+                insert(x)
             statuses.append({'source': src, 'ok': True, 'found': len(items)})
             succeeded += 1
             print(f'{src}: {len(items)} relevant entries')
@@ -194,7 +201,7 @@ def main() -> int:
     try:
         items = read_hf(s)
         for x in items:
-            store[dedupe_key(x['url'])] = x
+            insert(x)
         statuses.append({'source': 'Hugging Face Daily Papers', 'ok': True, 'found': len(items)})
         succeeded += 1
         print(f'Hugging Face: {len(items)} relevant entries')
