@@ -45,6 +45,87 @@ TOPICS = [
     ('视频生成', re.compile(r'\b(video generation|text[- ]to[- ]video|image[- ]to[- ]video|video diffusion|video synthesis|video models?)\b', re.I)),
     ('模型训练', re.compile(r'\b(fine[- ]tuning|post[- ]training|distillation|reinforcement learning|dpo|rlhf|grpo|pretraining|pre[- ]training|quantization|alignment|scaling laws?)\b', re.I)),
 ]
+
+# Favor computer-science algorithms, AI model methods, agents, retrieval,
+# software systems and engineering over business case studies and applied
+# healthcare/science headlines. This is an intentionally conservative filter.
+CS_TITLE = re.compile(
+    r"\b(?:agents?|agentic|rag|retrieval|retriever|llms?|"
+    r"language models?|foundation models?|reasoning|prompt(?:ing)?|"
+    r"context window|tokeniz(?:ation|er|ing)|tokens?|inference|"
+    r"fine[- ]tun(?:ing|ed)?|distill(?:ation|ing)?|"
+    r"quantiz(?:ation|ed)?|transformers?|diffusion|neural|"
+    r"autoencoders?|deep learning|machine learning|models?|"
+    r"algorithms?|bench(?:mark(?:s|ing)?)?|evaluat(?:ion|ions|ing)|"
+    r"multimodal|multi[- ]modal|vision[- ]language|computer vision|"
+    r"image generation|video generation|video understanding|"
+    r"image understanding|video models?|text[- ]to[- ]video|"
+    r"image[- ]to[- ]video|video diffusion|video captioning|"
+    r"audio[- ]driven|speech|world models?|embeddings?|"
+    r"knowledge graph|vector database|databases?|distributed|"
+    r"parallel computing|cuda|gpus?|kernels?|programming|"
+    r"computer|software|source control|developer|coding|code|"
+    r"devops|cybersecurity|security|vulnerabilit(?:y|ies)|"
+    r"latency|throughput|api|architectur(?:e|al)|infrastructure|"
+    r"optimization|reinforcement learning|open[- ]source|mcp|"
+    r"kubernetes|deployment|computing|simulation|attention|"
+    r"networks?|sampling|adversarial|representation|"
+    r"data processing|web apps?|frameworks?|harness|privacy|"
+    r"localization|mapping|causal|learning|summarization|sparse|"
+    r"compilation|verification|proof|performance)\b", re.I
+)
+NON_CS_TITLE = re.compile(
+    r"\b(?:sales|revenue|marketing|advertising|customers?|"
+    r"customer support|business(?:es)?|finance|financial|banks?|"
+    r"banking|insurance|legal|lawyers?|policy|governance|"
+    r"politics|government|election|medical|health(?:care)?|"
+    r"patients?|clinical|cancer|drugs?|disease|genomics?|"
+    r"genetics|protein|biology|biological|biomedical|physics|"
+    r"black holes?|astronomy|weather|climate|agriculture|"
+    r"schools?|education|teachers?|students?|economics?|"
+    r"retail|shopping|startups?|billing|pricing|partnership|"
+    r"sponsor|grant|united nations|employees?|workplace|"
+    r"careers?|hiring|metabolic|wearables?|pharma|ecology|"
+    r"welfare|depression|hospitals?|biochemical|science|"
+    r"scientists?|scientific|planetary|chemistry|cheminformatics|"
+    r"bioinformatics|psychometric|behaviou?r(?:al)?|genome|"
+    r"epidemiology|solar|manufacturing|knowledge work|"
+    r"fashion|journalism|trade|weapons?|military)\b", re.I
+)
+MODEL_RELEASE = re.compile(
+    r"\b(?:gemini\s*\d|gpt[- ]?\d|"
+    r"claude\s+(?:opus|sonnet|haiku|fable|mythos)\s*\d|"
+    r"gemma\s*\d|genie\s*\d|qwen\s*\d|llama\s*\d|deepseek)\b",
+    re.I
+)
+ENGINEERING_POST = re.compile(
+    r"\b(?:how we built|under the hood|behind the scenes|"
+    r"how .{0,50} works|engineering|building .{0,50} platform)\b", re.I
+)
+TECHNICAL_SUMMARY = re.compile(
+    r"\b(?:source control|gpu|memory management|latency|"
+    r"architecture|runtime|training|kernel|optimizer|compiler|"
+    r"api|code|coding|agents?|retrieval|inference|benchmark|"
+    r"computer|software|transformer|token|rag|framework)\b", re.I
+)
+
+
+def is_cs_relevant(title: str, summary: str, group: str) -> bool:
+    """Only keep technical computer-science items, including past feed items.
+
+    Classification is deliberately title-led: mentioning a model in a
+    marketing or healthcare article's long summary is not enough.
+    """
+    if NON_CS_TITLE.search(title):
+        return False
+    if CS_TITLE.search(title) or MODEL_RELEASE.search(title):
+        return True
+    return bool(
+        group != "papers"
+        and ENGINEERING_POST.search(title)
+        and TECHNICAL_SUMMARY.search(summary[:1200])
+    )
+
 CLEAN_TAG = re.compile(r'<[^>]+>')
 WS = re.compile(r'\s+')
 
@@ -93,12 +174,9 @@ def make_item(title: str, summary: str, url: str, *, source: str, group: str,
     title = plain(title)
     summary = plain(summary)[:3500]
     url = clean_url(url)
-    if not title or not url:
+    if not title or not url or not is_cs_relevant(title, summary, group):
         return None
     tags = get_tags(title, summary)
-    # Preserve company announcements as well as keyword-matched research papers.
-    if not tags and group == 'papers':
-        return None
     doc_id = hashlib.sha256(url.encode('utf-8')).hexdigest()[:20]
     return {'id': doc_id, 'title': title, 'summary': summary,
             'url': url, 'pdf': clean_url(pdf), 'source': source, 'group': group,
@@ -211,7 +289,10 @@ def main() -> int:
     if succeeded == 0:
         print('No sources were reachable; preserving previous data and failing this run', file=sys.stderr)
         return 1
-    records = sorted(store.values(), key=lambda x: x.get('published') or '', reverse=True)
+    relevant = [x for x in store.values()
+                if is_cs_relevant(x.get('title', ''), x.get('summary', ''), x.get('group', 'news'))]
+    print(f'Computer-science filter: {len(relevant)} of {len(store)} articles retained')
+    records = sorted(relevant, key=lambda x: x.get('published') or '', reverse=True)
     kept = {'papers': 450, 'research': 260, 'news': 260}
     counters = {k:0 for k in kept}
     by_source = {}
