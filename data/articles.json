@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T14:05:57.913659Z",
+  "updated_at": "2026-11-21T14:10:04.519060Z",
   "articles": [
     {
       "id": "2811d5d7284ac0992429",
@@ -75,7 +75,7 @@
         "LLM"
       ],
       "origin": "official",
-      "title_zh": "HapBO:通过专家自然语言前传获得巴伊西亚优化"
+      "title_zh": "HapBO:通过专家自然语言前传获得贝叶斯优化"
     },
     {
       "id": "a9a6c2b7492b434ebf8c",
@@ -368,7 +368,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "压缩动机的无尺寸缓冲线反馈"
     },
     {
       "id": "6857907d03125241a3a7",
@@ -383,7 +384,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "重量代码: 通过重量空间编程将新能力安装到神经网络"
     },
     {
       "id": "f8581f14eb474342ce82",
@@ -397,7 +399,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "走向自动递归神经网络参数生成"
     },
     {
       "id": "5b9abba8f74a1ac639ce",
@@ -411,7 +414,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "一个描述值千人示威吗? 文字学习中任务描述的具体性和可靠性"
     },
     {
       "id": "7c2188d113bbb2c6e6eb",
@@ -426,7 +430,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "强化- 结合概率天气预报与分散的托肯斯"
     },
     {
       "id": "283c47d83632164dc213",
@@ -440,7 +445,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Epira的设计和评价:案件调查和联系人追踪自动面谈系统"
     },
     {
       "id": "5411084b8a08df735f1e",
@@ -456,7 +462,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "从数据对齐到参数生成:少有带条件分散的跨城市交通预测"
     },
     {
       "id": "27ba1583f11e7b2f3821",
@@ -471,7 +478,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "面向LLM培训后的强化学习"
     },
     {
       "id": "eeda7fe375b4e50888f0",
@@ -485,7 +493,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "PSTO:一个PDE结构化运输运营商,共享多尺度CDR系统的隐含更新"
     },
     {
       "id": "215ba9a0fd707c8d06bb",
@@ -499,7 +508,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "NIMIS: 结构-不可知性,化学上知情的分层-留置框架 拆卸 1D $^1 $H-NMR 混合光谱"
     },
     {
       "id": "952b56b4c0e44112264b",
@@ -513,7 +523,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "可计量性不完全可运输性:对多年实地审判中示范解释的预期审计"
     },
     {
       "id": "f62d6531e8fbd7941794",
@@ -528,7 +539,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "后底贝奇:在语言模型中评价行为前底取样"
     },
     {
       "id": "a4c270b0690016b8751a",
@@ -545,7 +557,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过精益求精的视野-语言模式加强学习"
     },
     {
       "id": "c2d4de27c58d338c4b43",
@@ -559,7 +572,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "路由验证:在专家模型中进行阶梯级核查的路由干预"
     },
     {
       "id": "8a9b019215c01c4669f0",
@@ -573,7 +587,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "对能检测内幕威胁的语言模型的解释是否可靠?"
     },
     {
       "id": "0edafd0c94fd23a12b01",
@@ -587,7 +602,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Beyond According: Whitening Geometry, profile 综合,以及跨环境WiFi动作识别的异质集合"
     },
     {
       "id": "58f4805bea7bf99a4b36",
@@ -601,7 +617,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在雷达微多普勒HAR中参数- 有效适应自控的视野后骨幸存分布"
     },
     {
       "id": "833eae50039c9886f554",
@@ -615,7 +632,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "LIFT: 概率细胞命运动态与单细胞快照的慢流匹配"
     },
     {
       "id": "189f978b1a00a4720e6a",
@@ -629,7 +647,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "DTS: 基于三角洲的线条标记, 用于高效的长链条标记"
     },
     {
       "id": "e61446092453f5fe02da",
@@ -643,7 +662,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "大型EV充电的电源设置点跟踪:变压器控制充电政策学习自控价格"
     },
     {
       "id": "2d88e325d0ee8704a991",
@@ -659,7 +679,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "政策改进 -- -- 持续强化学习的指导性重玩"
     },
     {
       "id": "439a975d0833df017e7f",
@@ -673,7 +694,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "工作空间有用吗? 在语言模型中验证全球工作空间计算的一个因果关系协议"
     },
     {
       "id": "cde008e0b59fc2b11d89",
@@ -688,7 +710,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Frontier Replay: 混合语言模型的分割- 自由 精确的前缀缓存"
     },
     {
       "id": "24f45cea2fa10df2e880",
@@ -703,7 +726,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "完整 SVD: 低Rank LLM 压缩功能规范方法"
     },
     {
       "id": "8cf3a940d1b19caaa080",
@@ -718,7 +742,8 @@
         "RAG",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "从参数化计算图中学习比较神经表现"
     },
     {
       "id": "cf03d18c3c51b59d89d3",
@@ -734,7 +759,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "RL 只能加强它所看到的成功"
     },
     {
       "id": "e559b0768558f7bd8118",
@@ -750,7 +776,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "NariQ: 用于长视线代理任务的子-3-Bit量化"
     },
     {
       "id": "b4816995b506283a456b",
@@ -765,7 +792,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "预算内部化:固定预算RLVR贸易 预算精确度测试-时间缩放"
     },
     {
       "id": "26539b7e7b3f5fb56ad5",
@@ -779,7 +807,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过预测特征函数在样本-唯一分布之间进行不可逆运输"
     },
     {
       "id": "5634e8f7cb1207086190",
@@ -793,7 +822,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在整个建筑中学习、冻结和转移激活函数"
     },
     {
       "id": "20d269206c5fcd07bd39",
@@ -808,7 +838,8 @@
         "Agent",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "持续加强学习中的稳定差距"
     },
     {
       "id": "852193f2c3a8e7812a65",
@@ -824,7 +855,8 @@
         "LLM",
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "SKILL.PNG:在像素空间学习代理技能"
     },
     {
       "id": "b8e6ab00aa51431c2b0e",
@@ -838,7 +870,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "对预测编码动态的控制理论近似化"
     },
     {
       "id": "4e85c287972267ff64e1",
@@ -853,7 +886,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "海洋编码器:海洋工程自动化模拟模型的核查-指导型大语言模型"
     },
     {
       "id": "68716e4789b7f2fcb740",
@@ -867,7 +901,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "TRCF: 非常规多变量时间序列的时空参考补充预测"
     },
     {
       "id": "f83d5f2bd02527174922",
@@ -881,7 +916,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Mamba 流匹配神经过程:不定期观测空间场的线性-时间推论"
     },
     {
       "id": "4a0acbfd0a916bdbb9f8",
@@ -895,7 +931,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "HISA: 扩展 LLMS 中 RoPE 关注的隐藏维度"
     },
     {
       "id": "7d600c7570957fab6e32",
@@ -910,7 +947,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "高效推断-时间对齐的随时有效测试"
     },
     {
       "id": "e5f8f0fafc39a947ecf5",
@@ -926,7 +964,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "FEA 复合世界模型与螺旋神经网络内存块的解析器集成,用于计算高效率的缺陷和变异性建模"
     },
     {
       "id": "d82f07a33e955d948e11",
@@ -941,7 +980,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "寻找平面迷你马的新的算法方法:严重坝盖 Polyak stepize"
     },
     {
       "id": "615f5bd6a724c327fa31",
@@ -956,7 +996,8 @@
         "Agent",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "网格单元格作为光谱继承特征:可重复使用的连续强化学习基础"
     },
     {
       "id": "f9cf19cc94351daa2c4e",
@@ -970,7 +1011,8 @@
       "tags": [
         "RAG"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "用英语和马拉地语搜索政府计划混合检索"
     },
     {
       "id": "beb4a0ed0663c70fba33",
@@ -984,7 +1026,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "窗口 Lever: 更长的观测窗口 超越客户行为预测中数据、能力和架构的观测效果"
     },
     {
       "id": "1f8099f89d20b0f28641",
@@ -998,7 +1041,8 @@
       "tags": [
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Distilling a Oracle 教师的主动特性获取"
     },
     {
       "id": "dab271e41b13fffaf2b3",
@@ -1012,7 +1056,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Bio-PM-Guided合成器 IMU 生成器"
     },
     {
       "id": "767233308c507a4fed5c",
@@ -1027,7 +1072,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "LLM 复杂度: 大语言模型推论的计算复杂度视图"
     },
     {
       "id": "4a6e6b7eb81685b33954",
@@ -1042,7 +1088,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "ICARE:具有增量类认知表现和蒸馏学习的跨域文本分类"
     },
     {
       "id": "f1f46340229643298e09",
@@ -1056,7 +1103,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "何时需要程序结构 ? 方案入门的全方位证书校准"
     },
     {
       "id": "3e2bd7621237f63adc6b",
@@ -1070,7 +1118,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "利用太阳传感器和隐形表示改进机载形状模型"
     },
     {
       "id": "304f23a95e4c2c0340c0",
@@ -1084,7 +1133,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Infer3D: 反基因模型化 启用强力 3D 重建"
     },
     {
       "id": "1ea1e1cd85c5fa7f730d",
@@ -1098,7 +1148,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "PriTabICL: 与任务相匹配的集群- 集成合成的 不同形式的私有 Tabular 内文字学习"
     },
     {
       "id": "5bd812d1ea646250dadd",
@@ -1113,7 +1164,8 @@
         "Agent",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "BuggyMLE: 放大机器学习工程与错误喷射的难度"
     },
     {
       "id": "0d7a8d8e3bc906e8dc2a",
@@ -1127,7 +1179,8 @@
       "tags": [
         "RAG"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "CAIMS: 可缩放的跨箭头记忆搜索"
     },
     {
       "id": "d782bc04d9315ff6232e",
@@ -1141,7 +1194,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在选择之前:研究语言模型中前景表现的指数框架"
     },
     {
       "id": "d40cd77e12b3daaa96fb",
@@ -1155,7 +1209,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "盲点旅行,知识留在家:LLM法官的RL遗产"
     },
     {
       "id": "f7a56979368304a1e837",
@@ -1169,7 +1224,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "MADJEPA:加强医学异常检测的多层次联合预测结构"
     },
     {
       "id": "e114ca0ca6b34b0f72ab",
@@ -1184,7 +1240,8 @@
         "Agent",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "从自玩 RL 到约束控制: Dugger 抖动 diffMPC 学生"
     },
     {
       "id": "ade955e7473b037044d6",
@@ -1198,7 +1255,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "目标和评价者不同意:评估为减少人口紧张程度而转移的资金"
     },
     {
       "id": "9b679c847be9d5787942",
@@ -1212,7 +1270,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "LLMs 已经是信任- 软件零热分类器"
     },
     {
       "id": "241730fbd82667624fb5",
@@ -1227,7 +1286,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "VoxForge:全磁共振、CT和PET中三维特性的统一基础模型"
     },
     {
       "id": "944aa74977cade1a34b0",
@@ -1241,7 +1301,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "何时应部署BCI解码器? 冷冻 EEG Trunks 的资源定价梯"
     },
     {
       "id": "154ea86b99d8f8316970",
@@ -1256,7 +1317,8 @@
         "LLM",
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "ActMem:从Latent记忆理性到地面机器人动作"
     },
     {
       "id": "4c7a415fb839a07bdb44",
@@ -1270,7 +1332,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "四级可执行验证协议,用于评估基于物理学的HVAC数字双胞胎LLM生成的地形规格"
     },
     {
       "id": "91203157f9dcb9068fb3",
@@ -1284,7 +1347,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "以独特的Token代表形式进行现场演讲和场景制作的联合语言模型"
     },
     {
       "id": "71c0a36f782b82b95707",
@@ -1298,7 +1362,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "对基于分数的基因模型应用的私人分数估计"
     },
     {
       "id": "bf738485d2ba95d5b28f",
@@ -1312,7 +1377,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "带有内容可扩展空间地址的世界建模"
     },
     {
       "id": "b44f1347a5d9784c7d05",
@@ -1326,7 +1392,8 @@
       "tags": [
         "视频生成"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "没有物理损失的物理定律? 通过强制反应探索视频世界模式中已知的动态"
     },
     {
       "id": "7b90a2919491eb2665d6",
@@ -1340,7 +1407,8 @@
       "tags": [
         "视频生成"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "无法见到的样本:为什么更少的减震步骤可以在物理基准上获得更高的分数"
     },
     {
       "id": "8bfaa14f3c17dd6fac78",
@@ -1354,7 +1422,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "消除错误之处:共享基金会-模型嵌入中有条件的属性泄漏和概念损失"
     },
     {
       "id": "9e099e0eac72e2add0e4",
@@ -1370,7 +1439,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "硅基:用于代理电离层增强学习环境"
     },
     {
       "id": "27140791b5b6f655486c",
@@ -1384,7 +1454,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "GPU-加速安全推断药物-目标相互作用预测"
     },
     {
       "id": "d59eeea1e17b5a913793",
@@ -1398,7 +1469,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过 Karhunen-Loßeve 特性蒸馏和瞬息万变网络进行轻量级低频非侵入性负载监测"
     },
     {
       "id": "ec5f3e4ae161cb6a0d49",
@@ -1412,7 +1484,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "从地理记忆到大语言模型中的空间通用"
     },
     {
       "id": "4909dc4f15ebafaa9c7b",
@@ -1427,7 +1500,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "LLMS能否解决特定领域NLU管道的实体冲突?"
     },
     {
       "id": "1aefb4130217d7ea45ab",
@@ -1442,7 +1516,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AdaptReg:用于特定任务调整的跳过级FiLM适配器 冻结登记基金会模型"
     },
     {
       "id": "286e6cad2a2147131229",
@@ -1456,7 +1531,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "缩小低推论预算下传播语言模型的性能差距"
     },
     {
       "id": "0b68c72b53464a323eae",
@@ -1470,7 +1546,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过Gaze估计和结构化驾驶场理解确定驾驶者Gaze目标"
     },
     {
       "id": "1fd657e739f100c7f55d",
@@ -1484,7 +1561,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "锁定和检查:可审计的 LLM 决定的决定性跨程序、跨模式调节"
     },
     {
       "id": "9fc863ce38418f3c26ff",
@@ -1498,7 +1576,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Rank2 替换: VLM-Ranked Slot 用于分配外的替换"
     },
     {
       "id": "b615d3e40f27d7440a19",
@@ -1512,7 +1591,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "一个调度不完全适合: 扩散语言模型的适应性推断调度"
     },
     {
       "id": "36b2eacee7915520b462",
@@ -1526,7 +1606,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "解释的价格:要求可核实的人工成本和回购"
     },
     {
       "id": "fd53583d5124b54db36d",
@@ -1541,7 +1622,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "医学法学硕士中可验证的逻辑:对动剂临床理性优化和神经-系统定位的批判性审查"
     },
     {
       "id": "67a6ab36b5a5f0a9f30c",
@@ -1555,7 +1637,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "预测深度:语言模型解决一个字预言人类阅读时间的地方"
     },
     {
       "id": "38a79e23e25885a9f77b",
@@ -1569,7 +1652,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过终止-形状强化学习实现无参考的人类类滑板"
     },
     {
       "id": "5b5c73f1311988179d62",
@@ -1583,7 +1667,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "SlotFlow-GB: 超重叠银河二进制跨双导论神经框架"
     },
     {
       "id": "536d4386c711aad48fdf",
@@ -1596,7 +1681,7 @@
       "published": "2026-11-20T23:30:30Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "Google Dupplex 如何进化成同样在双子座为您号召企业"
+      "title_zh": "Google Dupplex 如何进化成同样在Gemini为您号召企业"
     },
     {
       "id": "7ad44f990f0c53ef2e2a",
@@ -1728,7 +1813,7 @@
       "published": "2026-11-18T21:35:43Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "引入双子座4 Neon"
+      "title_zh": "引入Gemini4 Neon"
     },
     {
       "id": "0185d3f5841f8b76c7da",
@@ -2110,7 +2195,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "WeMM-Video:推动开放源代码-Momni-Modal视频理解的前沿"
     },
     {
       "id": "2f768c506e63efef4020",
@@ -2126,7 +2212,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "EgoCapitioner:走向全面和精致的Egocent视频字幕"
     },
     {
       "id": "5bcd41460e6aa45d0221",
@@ -2142,7 +2229,8 @@
         "LLM",
         "视频生成"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Coda-DaVinci:用代码2Video重新想象视频生成"
     },
     {
       "id": "cac57b5217ba2caa29c8",
@@ -2239,7 +2327,8 @@
         "LLM",
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AVTR:可适应的多种模式与视觉想象"
     },
     {
       "id": "68ddb817fe4001c0fc7b",
@@ -2279,7 +2368,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Squoosh法官席:评估318历史网站A/B上的UX-1"
     },
     {
       "id": "620eb3f4dad74266b1fe",
@@ -2294,7 +2384,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "编码代理对光神经网络进行西图培训"
     },
     {
       "id": "a97ecd2777dbf4fbd324",
@@ -2308,7 +2399,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "幻影成功,寂静失败:审计模拟操纵基准的成功检查者"
     },
     {
       "id": "03b87ba5083061abf109",
@@ -2322,7 +2414,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "协议:从一台相机和一台IMU上进行通用在线计量本地化和传感器绘图"
     },
     {
       "id": "e0a9d36a840a800b578a",
@@ -2336,7 +2429,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "居住者:长视人与空间控制和定量反馈相互作用的代理框架"
     },
     {
       "id": "ee6012b61fc746e42d72",
@@ -2351,7 +2445,8 @@
         "LLM",
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "WM^MLLM: 将 MLLMs 转换成世界模型"
     },
     {
       "id": "a3b53b871855502beb43",
@@ -2366,7 +2461,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "WAM-政策:四方乐章管理政策调整的世界行动模式"
     },
     {
       "id": "5c59ec68fb82eadd27ad",
@@ -2380,7 +2476,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "将政策推入混合关注模式"
     },
     {
       "id": "c2b94a6ccdaf6d117aee",
@@ -2394,7 +2491,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "NarrowSpec: 草稿隐藏 Width 需要不匹配 Spective 解码中的目标"
     },
     {
       "id": "3ffdf53d0f2337622a50",
@@ -2408,7 +2506,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "语文模式具体培训数据的一般进度替代"
     },
     {
       "id": "1f5d7ce60587bc235087",
@@ -2424,7 +2523,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "重播,不要重现:长视野RL专家政策外整合"
     },
     {
       "id": "b7167cf4ef13d654f698",
@@ -2439,7 +2539,8 @@
         "LLM",
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "《视觉任务统一法》(《计算机视觉四法》)"
     },
     {
       "id": "d16d580a6b6dccd2e5f9",
@@ -2453,7 +2554,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "TabBioMed:生物医学表学习大尺度基准"
     },
     {
       "id": "28257dd1e45fce6dc152",
@@ -2469,7 +2571,8 @@
         "视频生成",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "波浪视频:小说视图在噪声中"
     },
     {
       "id": "526149b232bedc323b86",
@@ -2483,7 +2586,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "StrideWorld:互动视频世界模式中确定场景强度和行动一致性的基准"
     },
     {
       "id": "66fdbbf8f9f1cf65bca5",
@@ -2498,7 +2602,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "快速思考, 任何地方: 任何代理工作流程决定点的系统-1"
     },
     {
       "id": "bb1a60493cd058fe53ec",
@@ -2512,7 +2617,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "CurvDelta:用于外科学习和未学习的低温度三角洲模型"
     },
     {
       "id": "2bff6136ade5af37d7d3",
@@ -2526,7 +2632,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "HINT-WAM:世界行动模式的 \" 洞察力 \" 培训"
     },
     {
       "id": "3aa93cb91ee52648a421",
@@ -2541,7 +2648,8 @@
         "Agent",
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Piccolo:通过递归自我改进共同演变的决定模型和数据"
     },
     {
       "id": "30d44e1f11463a5dae84",
@@ -2557,7 +2665,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "UltraTex: 调和物理知识用于高纯度 PBR 纹理生成"
     },
     {
       "id": "f590787b33d2cc439a13",
@@ -2573,7 +2682,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "PIPETTE:强力LM剂快速注射紫色小组"
     },
     {
       "id": "51fcb464fc056e5e5d0f",
@@ -2587,7 +2697,8 @@
       "tags": [
         "视频生成"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "世界规则:可配置规则下的交互式世界模式"
     },
     {
       "id": "426e8f60ce7782915f6d",
@@ -2603,7 +2714,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "PReMind: 当个人记忆遇到视觉危险时"
     },
     {
       "id": "32977bc14b09c9f27949",
@@ -2617,7 +2729,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "循环语言模型中的晚期条目"
     },
     {
       "id": "8f6af8c44a4a1bfb5de3",
@@ -2669,7 +2782,7 @@
       "published": "2026-11-17T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "使用“ chaos 循环” 来硬化 Claude Docs 的发射: 60 个服务器错误, 涉及数十亿个请求"
+      "title_zh": "使用“ chaos 循环” 来硬化 Claude Docs 的发布: 60 个服务器错误, 涉及数十亿个请求"
     },
     {
       "id": "9434292048106a1c3b9a",
@@ -2682,7 +2795,7 @@
       "published": "2026-11-17T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "克劳德平台的连结账单"
+      "title_zh": "Claude平台的连结账单"
     },
     {
       "id": "0e7f690aa4ff229bd2e8",
@@ -2736,7 +2849,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "VSpark:自动退缩视野-语言-行动模型的光谱解码"
     },
     {
       "id": "9e1a551ed68c4720342e",
@@ -2750,7 +2864,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "RICOT: 网页流分页经常间断链"
     },
     {
       "id": "5c6b6623ec634c8bbef6",
@@ -2764,7 +2879,8 @@
       "tags": [
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "BiCAT:双人协调行动"
     },
     {
       "id": "c01d829385ebf76916d3",
@@ -2778,7 +2894,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "配音: 共享 N- gm 随图层变化而嵌入"
     },
     {
       "id": "095e886450788279170b",
@@ -2794,7 +2911,8 @@
         "多模态",
         "视频生成"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "FVS分数:规格驱动的神经系统视频评价"
     },
     {
       "id": "888572fff6cc7b94eb70",
@@ -2809,7 +2927,8 @@
         "Agent",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "NexSight:可验证的任务,用于精细胶片剂长视频理解"
     },
     {
       "id": "97087fe3c15c5fa6c7d3",
@@ -2875,7 +2994,8 @@
       "group": "news",
       "published": "2026-11-16T09:30:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Revolut如何提高野心而不降低吧"
     },
     {
       "id": "ff7833693fa2a06713dc",
@@ -2887,7 +3007,8 @@
       "group": "news",
       "published": "2026-11-16T09:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "LVMH媒体司宣布与OpenAI建立战略伙伴关系"
     },
     {
       "id": "9fe6d2ae73e55f52b807",
@@ -2901,7 +3022,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "我们的第一阶段嵌入式摊款"
     },
     {
       "id": "21e886491b30cfff0403",
@@ -2915,7 +3037,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "以更多方式推进保健护理"
     },
     {
       "id": "21b4758ab52123ac78ff",
@@ -2929,7 +3052,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "推进医疗队计算机使用代理"
     },
     {
       "id": "4e6009943a7de781fd19",
@@ -2969,7 +3093,8 @@
       "group": "news",
       "published": "2026-11-16T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "国王信托基金和OpenAI发起100万英镑的伙伴关系"
     },
     {
       "id": "3d4aeac88b69acfaa9cd",
@@ -2981,7 +3106,8 @@
       "group": "news",
       "published": "2026-11-16T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在假日外加店,点在别人问之前就开始工作"
     },
     {
       "id": "2e8f421d2ee2a3dfd36b",
@@ -2993,7 +3119,8 @@
       "group": "news",
       "published": "2026-11-15T22:00:01Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "确定标准模式的一步骤"
     },
     {
       "id": "33b95c2112c46efd0955",
@@ -3005,7 +3132,8 @@
       "group": "news",
       "published": "2026-11-15T22:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "我们的新科学博客"
     },
     {
       "id": "b62ce9f89fc9f8d27763",
@@ -3020,7 +3148,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "语言模型可以重写自己的重量"
     },
     {
       "id": "c72bba6ed1806cad97e7",
@@ -3035,7 +3164,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "System 1 代理:一种用于本地,可靠和快速代理AI的方法."
     },
     {
       "id": "bc7b5f737c3c97e6aaff",
@@ -3051,7 +3181,8 @@
         "RAG",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "嵌入 vs. Grep: 重新思考代码搜索中的 Dense 优势"
     },
     {
       "id": "747c2fbed97c577911e8",
@@ -3068,7 +3199,8 @@
         "视频生成",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "WeVisForensics:Omni AI-Generated视频检测的自演代理"
     },
     {
       "id": "7c870f745bfa140be1f2",
@@ -3084,7 +3216,8 @@
         "LLM",
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "BLIP-Live:在主动流线视频代理中平衡及时性和射击精度"
     },
     {
       "id": "bea6f68aca51de60ac08",
@@ -3111,7 +3244,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "校对:Soup"
     },
     {
       "id": "0246a8a04c761c5d4417",
@@ -3126,7 +3260,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "S1Cog Bench: 系统一个决策模型在认知实验上能够和不能做什么"
     },
     {
       "id": "a1a136e9215ac9854d2d",
@@ -3142,7 +3277,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "复合环境:自我改进,从零提高到一"
     },
     {
       "id": "7d4d71d056da02862d0b",
@@ -3156,7 +3292,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入 ChatGPT 钱包"
     },
     {
       "id": "a99dfdd20d85acbbb850",
@@ -3170,7 +3307,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Shield帮助技术员交出OpenAI的遗产门户"
     },
     {
       "id": "3007f82c38138e35a867",
@@ -3196,7 +3334,7 @@
       "published": "2026-11-13T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "启动的 Claude 标签指南"
+      "title_zh": "初创企业的 Claude 标签指南"
     },
     {
       "id": "2fce942bef9f44eb17ef",
@@ -3211,7 +3349,7 @@
         "Agent"
       ],
       "origin": "third-party",
-      "title_zh": "总是在建特工"
+      "title_zh": "总是在建智能体"
     },
     {
       "id": "67672a694e389b29af55",
@@ -3225,7 +3363,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在OpenAI公司1至2天内,海拔船舶如何生产改进"
     },
     {
       "id": "0d5e2f8ad4d337197d7d",
@@ -3239,7 +3378,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "按文件大小和每个解决的任务的能量选择量化代码 LLMs"
     },
     {
       "id": "c7a410ad3b8628097c72",
@@ -3252,7 +3392,7 @@
       "published": "2026-11-12T18:00:50Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "引入双子座4氢"
+      "title_zh": "引入Gemini4氢"
     },
     {
       "id": "b9840fd67063a36a400d",
@@ -3264,7 +3404,8 @@
       "group": "news",
       "published": "2026-11-12T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "刚多拉的收入翻了一番 因为它的团队用 Codex 建设得更多"
     },
     {
       "id": "4922ca6fb0dd92994c34",
@@ -3276,7 +3417,8 @@
       "group": "news",
       "published": "2026-11-12T09:30:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "假日特派员正在重新思考它能用 Codex 构建什么"
     },
     {
       "id": "21c1ce1eda763bf0a9ff",
@@ -3289,7 +3431,7 @@
       "published": "2026-11-12T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "利用克劳德·奥普斯·5.5作为你的日常知识工作驱动器"
+      "title_zh": "利用Claude·奥普斯·5.5作为你的日常知识工作驱动器"
     },
     {
       "id": "c3d1bbdfab443c537394",
@@ -3304,7 +3446,7 @@
         "Agent"
       ],
       "origin": "third-party",
-      "title_zh": "运行克劳德 管理特工 在你的安全范围"
+      "title_zh": "运行Claude 管理智能体 在你的安全范围"
     },
     {
       "id": "de39c5946a7a9f562120",
@@ -3317,7 +3459,7 @@
       "published": "2026-11-12T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "J. Crew给克劳德带来了它的签字方式"
+      "title_zh": "J. Crew给Claude带来了它的签字方式"
     },
     {
       "id": "779abe288b1c01daf6b7",
@@ -3330,7 +3472,7 @@
       "published": "2026-11-12T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "介绍克劳德会议"
+      "title_zh": "介绍Claude会议"
     },
     {
       "id": "bc121fc85136463b8bfd",
@@ -3355,7 +3497,8 @@
       "group": "news",
       "published": "2026-11-12T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "支持关于AI和儿童安全的研究"
     },
     {
       "id": "35bcc4b3dafe10f2abb0",
@@ -3367,7 +3510,8 @@
       "group": "news",
       "published": "2026-11-12T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "聊天游戏 广告增加其在44个国家的市场存在"
     },
     {
       "id": "65b96c238445cdedc96b",
@@ -3379,7 +3523,8 @@
       "group": "news",
       "published": "2026-11-12T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gilbert + Tobin 与AI重新思考法律事务"
     },
     {
       "id": "0f5c21881c737acb9dc8",
@@ -3406,7 +3551,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "未完成的奔驰:测量现实工作环境中持久性代理违反规则的情况"
     },
     {
       "id": "30e9e1c87e2ee6d331e5",
@@ -3421,7 +3567,8 @@
         "LLM",
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "LightTAR: 用于多式联运表征学习的轻快目标预示"
     },
     {
       "id": "833534b672b8daa32ace",
@@ -3446,7 +3593,8 @@
       "group": "news",
       "published": "2026-11-11T08:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "聊天游戏 退伍军人和服务成员加薪"
     },
     {
       "id": "55ff14dc4213127df72a",
@@ -3458,7 +3606,8 @@
       "group": "news",
       "published": "2026-11-11T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "JioStar关于人工智能发现的首席建筑师,规模为500M用户"
     },
     {
       "id": "e1742b0ed40ea563844b",
@@ -3489,7 +3638,8 @@
         "多模态",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Lang-SVG:带有语言前传的层次图像矢量化"
     },
     {
       "id": "6d8eb3bcd497222db158",
@@ -3502,7 +3652,7 @@
       "published": "2026-11-10T16:03:47Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "双子座4碳现已可用"
+      "title_zh": "Gemini4碳现已可用"
     },
     {
       "id": "f321c904268bcef29356",
@@ -3529,7 +3679,8 @@
       "group": "news",
       "published": "2026-11-10T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "帮助照料者在日常生活中使用AI"
     },
     {
       "id": "d0f9bf46fa9dba7cc8ef",
@@ -3554,7 +3705,8 @@
       "group": "news",
       "published": "2026-11-10T10:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "ChatGPT 介绍企业"
     },
     {
       "id": "69d4d9d74efa01629a6c",
@@ -3566,7 +3718,8 @@
       "group": "news",
       "published": "2026-11-10T09:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "缩小AI在教育方面的指导差距"
     },
     {
       "id": "9092d5eb66f29547408d",
@@ -3578,7 +3731,8 @@
       "group": "news",
       "published": "2026-11-10T08:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "新加坡航空公司利用OpenAI技术提升旅行和工作水平"
     },
     {
       "id": "f3fc54cd1d78c100d666",
@@ -3590,7 +3744,8 @@
       "group": "news",
       "published": "2026-11-10T07:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "边境工作:大赦国际对自由职业者工作的影响"
     },
     {
       "id": "37e4452e64c861cffe83",
@@ -3604,7 +3759,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Cogent和OpenAI为企业建造网络防御工厂"
     },
     {
       "id": "001cd33c965241bc7333",
@@ -3630,7 +3786,7 @@
       "published": "2026-11-10T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "更多与克劳德合作的方式:工作表、白板和交互式连接器"
+      "title_zh": "更多与Claude合作的方式:工作表、白板和交互式连接器"
     },
     {
       "id": "19f8bc589a9b194da0da",
@@ -3658,7 +3814,7 @@
         "Agent"
       ],
       "origin": "third-party",
-      "title_zh": "如何惩罚正在建立一个国家供应商网络,由克劳德的代理商组成"
+      "title_zh": "如何惩罚正在建立一个国家供应商网络,由Claude的代理商组成"
     },
     {
       "id": "2dcdb6cee137def0a3a6",
@@ -3698,7 +3854,8 @@
       "group": "news",
       "published": "2026-11-09T19:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "聊天游戏 企业在AWS 采购网"
     },
     {
       "id": "952d2516af2e905436ad",
@@ -3710,7 +3867,8 @@
       "group": "news",
       "published": "2026-11-09T13:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "控制室:一个追踪和停止我们研究基础设施模型工作量的中央系统"
     },
     {
       "id": "02e9abf47eaf3fa01f98",
@@ -3724,7 +3882,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "CodeRabbit 比例尺代理软件开发及船舶"
     },
     {
       "id": "2e34e84f0999c607fcd0",
@@ -3736,7 +3895,8 @@
       "group": "news",
       "published": "2026-11-09T08:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Kuken工业在几分钟内就搜索了70年的图纸"
     },
     {
       "id": "0c77ff5e2b269a81b0d4",
@@ -3762,7 +3922,7 @@
       "published": "2026-11-09T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "克劳德·寓言5.2和神话5.2"
+      "title_zh": "Claude·寓言5.2和神话5.2"
     },
     {
       "id": "5c11131c78a9342e71ba",
@@ -3815,7 +3975,8 @@
       "group": "news",
       "published": "2026-11-09T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "VistaPrint如何帮助小企业获得消息"
     },
     {
       "id": "a0a44ed09dc9a1089b4e",
@@ -3827,7 +3988,8 @@
       "group": "news",
       "published": "2026-11-06T08:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "与Hacktron合作寻找OpenAI系统中的弱点"
     },
     {
       "id": "f0247d2be6d23fda2798",
@@ -3856,7 +4018,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "衡量人工智能人员如何处理日常湿板科学"
     },
     {
       "id": "8a424d75a52656da5062",
@@ -3881,7 +4044,8 @@
       "group": "news",
       "published": "2026-11-05T20:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Cult.fit 使用 Codex 构建操作肌肉"
     },
     {
       "id": "f09d7876c1e95fcaa2b6",
@@ -3894,7 +4058,7 @@
       "published": "2026-11-05T17:05:16Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "双子座1.2 Flash:用较长的剪辑快速且具有成本效益"
+      "title_zh": "Gemini1.2 Flash:用较长的剪辑快速且具有成本效益"
     },
     {
       "id": "616c68177b707eae60eb",
@@ -3906,7 +4070,8 @@
       "group": "news",
       "published": "2026-11-05T17:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "澳大利亚各大学正在培养AI本土毕业生"
     },
     {
       "id": "6e85f4370dc45c55fcb9",
@@ -3948,7 +4113,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "GPT‐6 网络:推进网络安全联合代理的前沿."
     },
     {
       "id": "db9792e954d447010915",
@@ -3960,7 +4126,8 @@
       "group": "news",
       "published": "2026-11-05T08:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "将产品和商业工具与OpenAI技术合并"
     },
     {
       "id": "25fa4dd18ec78a48a923",
@@ -3972,7 +4139,8 @@
       "group": "news",
       "published": "2026-11-05T02:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "为负责任的AI基础设施制定新标准"
     },
     {
       "id": "2d1d326185a62641bed0",
@@ -3984,7 +4152,8 @@
       "group": "news",
       "published": "2026-11-05T00:45:15Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Flipsnack 以转换优化方式增长产品注册"
     },
     {
       "id": "7951c5b8003d194fd80a",
@@ -3997,7 +4166,7 @@
       "published": "2026-11-05T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "科学发现AI:研究人员如何利用克劳德"
+      "title_zh": "科学发现AI:研究人员如何利用Claude"
     },
     {
       "id": "259ab2eb05b0186eda5b",
@@ -4010,7 +4179,7 @@
       "published": "2026-11-05T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "在克劳德介绍个人财务"
+      "title_zh": "在Claude介绍个人财务"
     },
     {
       "id": "480dd369b21eec5546d2",
@@ -4023,7 +4192,7 @@
       "published": "2026-11-05T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "提高安保小组对克劳德企业的能见度和控制权"
+      "title_zh": "提高安保小组对Claude企业的能见度和控制权"
     },
     {
       "id": "a8e215d1c3fca63aee0f",
@@ -4035,7 +4204,8 @@
       "group": "news",
       "published": "2026-11-05T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "富兰克林·坦普顿使用OpenAI支持投资研究"
     },
     {
       "id": "09c40cbdb75966e0dccf",
@@ -4060,7 +4230,8 @@
       "group": "news",
       "published": "2026-11-04T14:30:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI收购皮埃尔计算机公司."
     },
     {
       "id": "fbaa86a829ad59fd10c5",
@@ -4074,7 +4245,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "一千条更少的根路"
     },
     {
       "id": "a3433e936d2c04bfa772",
@@ -4086,7 +4258,8 @@
       "group": "news",
       "published": "2026-11-04T07:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Daybreak Red现在可在AWS GovCloud(美国东部)获取"
     },
     {
       "id": "295354ff422b0d4db922",
@@ -4100,7 +4273,8 @@
       "tags": [
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入图像 2.6"
     },
     {
       "id": "981785a01550309d0739",
@@ -4115,7 +4289,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "DevRev与GPT-6.1 Sol提供自主自助服务"
     },
     {
       "id": "49b5a8702a50f62ba5fd",
@@ -4128,7 +4303,7 @@
       "published": "2026-11-04T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "与克劳德一起调查金库颗粒"
+      "title_zh": "与Claude一起调查金库颗粒"
     },
     {
       "id": "eeb92871f1c91dcf31d3",
@@ -4170,7 +4345,8 @@
       "group": "news",
       "published": "2026-11-03T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "加速实际世界的工程建设"
     },
     {
       "id": "34e7d62615202d0de65f",
@@ -4182,7 +4358,8 @@
       "group": "news",
       "published": "2026-11-03T08:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "思科如何用 OpenAI 以机器速度防御"
     },
     {
       "id": "fc87a45dcfbf03d41725",
@@ -4194,7 +4371,8 @@
       "group": "news",
       "published": "2026-11-03T08:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "海姆斯塔登正在改变住宅房地产管理"
     },
     {
       "id": "019edb616369c3322f4c",
@@ -4206,7 +4384,8 @@
       "group": "news",
       "published": "2026-11-03T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI任命Jill Hazelbaker为首席公司事务干事"
     },
     {
       "id": "bca108e4c77bd86b238b",
@@ -4218,7 +4397,8 @@
       "group": "news",
       "published": "2026-11-02T18:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "奖励有较大漏洞的维权者"
     },
     {
       "id": "0d297090385ad5a72451",
@@ -4230,7 +4410,8 @@
       "group": "news",
       "published": "2026-11-02T18:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "准备下一个安全短跑 以硬化 OpenAI"
     },
     {
       "id": "277870ffc8d71544c046",
@@ -4242,7 +4423,8 @@
       "group": "news",
       "published": "2026-11-02T15:30:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在 OpenAI 缩放 Git"
     },
     {
       "id": "5d33ed0c66ace544e65f",
@@ -4254,7 +4436,8 @@
       "group": "news",
       "published": "2026-11-02T15:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入网格保护程序"
     },
     {
       "id": "5a014341bc3fc0f1d8b6",
@@ -4266,7 +4449,8 @@
       "group": "news",
       "published": "2026-11-02T09:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "寿命"
     },
     {
       "id": "43862ef771dfba655e31",
@@ -4308,7 +4492,8 @@
       "group": "news",
       "published": "2026-11-02T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Qodo 用 Codex 将上下文构建为 AI 代码审查"
     },
     {
       "id": "945f879ef3a469b4aebe",
@@ -4320,7 +4505,8 @@
       "group": "news",
       "published": "2026-11-02T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI任命Dan Driscoll为国家安全现代化高级顾问"
     },
     {
       "id": "1b296d8bb115085d301f",
@@ -4358,7 +4544,8 @@
       "group": "news",
       "published": "2026-10-30T09:30:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "方便网站表达AI培训偏好"
     },
     {
       "id": "a86d24c59c826150d16d",
@@ -4370,7 +4557,8 @@
       "group": "news",
       "published": "2026-10-30T09:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "社区安全报告和青少年新保护"
     },
     {
       "id": "574dbaf7fc8731e40575",
@@ -4382,7 +4570,8 @@
       "group": "news",
       "published": "2026-10-30T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "公平使用对大家都有好处"
     },
     {
       "id": "9349f418e7bc7ab45091",
@@ -4394,7 +4583,8 @@
       "group": "news",
       "published": "2026-10-29T17:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "更新的模型Spec,用于更有能力和更有益的AI"
     },
     {
       "id": "0f01adb2acab0a67ba71",
@@ -4408,7 +4598,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "我们如何发现前沿模型错位"
     },
     {
       "id": "d948735545c20cf30721",
@@ -4420,7 +4611,8 @@
       "group": "news",
       "published": "2026-10-29T07:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Ropes & Gray 如何开发交易提示"
     },
     {
       "id": "85f94c0fe8f02a81789b",
@@ -4432,7 +4624,8 @@
       "group": "news",
       "published": "2026-10-29T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Credit Saison在ChatGPT企业试点中实现了954%的ROI"
     },
     {
       "id": "16681fd606d5f6994d06",
@@ -4444,7 +4637,8 @@
       "group": "news",
       "published": "2026-10-28T19:40:49Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Evernote将AI驱动的发现变成付费订阅"
     },
     {
       "id": "e8e0cb1d0e685ced8c0e",
@@ -4457,7 +4651,7 @@
       "published": "2026-10-28T17:00:58Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "双子座4碳:我们的下一个前沿模型"
+      "title_zh": "Gemini4碳:我们的下一个前沿模型"
     },
     {
       "id": "a395c7da350b5086cc15",
@@ -4471,7 +4665,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI和ServiceNow扩大跨企业工作流程的伙伴关系"
     },
     {
       "id": "e2ed7680c50ae3f074e0",
@@ -4483,7 +4678,8 @@
       "group": "news",
       "published": "2026-10-28T10:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "公司的未来"
     },
     {
       "id": "709cc8e2bd467b791689",
@@ -4497,7 +4693,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "乐高拉在为法律工作建立代理操作系统"
     },
     {
       "id": "7270457062ab576b0613",
@@ -4509,7 +4706,8 @@
       "group": "news",
       "published": "2026-10-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude Entertainment的智能报告、调查和集合组预算"
     },
     {
       "id": "047d81f60ca5ab879683",
@@ -4521,7 +4719,8 @@
       "group": "news",
       "published": "2026-10-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "为法律工作引进文物"
     },
     {
       "id": "84b4c4707efe8f21fc46",
@@ -4533,7 +4732,8 @@
       "group": "news",
       "published": "2026-10-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "IDC把Quanta带进Claude公司 收养Claude"
     },
     {
       "id": "b49ec3bd8394c6fb4c19",
@@ -4575,7 +4775,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Retell 使用 OpenAI 模型来帮助提供100M 每月呼叫的电源"
     },
     {
       "id": "c417f8e3d39d0b893c07",
@@ -4589,7 +4790,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI 扩展与甲骨文的伙伴关系, 将其应用带给 ChatGPT"
     },
     {
       "id": "723372c8dc681795e858",
@@ -4604,7 +4806,7 @@
         "Agent"
       ],
       "origin": "third-party",
-      "title_zh": "AI代理人如何塑造专家的判断"
+      "title_zh": "AI智能体如何塑造专家的判断"
     },
     {
       "id": "dcad83d827337ce853e7",
@@ -4617,7 +4819,7 @@
       "published": "2026-10-27T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "与克劳德一起加快药物开发的早期进展"
+      "title_zh": "与Claude一起加快药物开发的早期进展"
     },
     {
       "id": "3043e32bee1c77986969",
@@ -4629,7 +4831,8 @@
       "group": "news",
       "published": "2026-10-27T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "管理成本并在 Google 云上演示 Claude 代码的 ROI"
     },
     {
       "id": "65ec4e9c8cacc3f6910f",
@@ -4641,7 +4844,8 @@
       "group": "news",
       "published": "2026-10-27T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude财务顾问"
     },
     {
       "id": "c44dc9ed271ff418b14a",
@@ -4653,7 +4857,8 @@
       "group": "news",
       "published": "2026-10-27T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "检查点如何与\"黎明\"一起加速脆弱性研究"
     },
     {
       "id": "a9c488820a62ac4adcd9",
@@ -4665,7 +4870,8 @@
       "group": "news",
       "published": "2026-10-26T22:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "GPT-6 Astra在代码审查之外进行错误检测"
     },
     {
       "id": "35e334c198740f741663",
@@ -4677,7 +4883,8 @@
       "group": "news",
       "published": "2026-10-26T18:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入 GPT-6.1 地面"
     },
     {
       "id": "8eb6001a836a6e50b8fb",
@@ -4689,7 +4896,8 @@
       "group": "news",
       "published": "2026-10-26T14:30:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "与学术界合作建立科学认识"
     },
     {
       "id": "7d972df501d01ba1f64a",
@@ -4703,7 +4911,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "GPT-6.1 Sol帮助代码Rabbit加强整个复杂代码库的安全"
     },
     {
       "id": "27334100e818b98514ff",
@@ -4715,7 +4924,8 @@
       "group": "news",
       "published": "2026-10-26T10:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "ChatGPT 不断扩大的工作世界"
     },
     {
       "id": "7e73eebe3e909303c4c5",
@@ -4727,7 +4937,8 @@
       "group": "news",
       "published": "2026-10-26T07:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Fanatics和OpenAI如何精简粉丝体验"
     },
     {
       "id": "742d30efdc4090c11a97",
@@ -4739,7 +4950,8 @@
       "group": "news",
       "published": "2026-10-26T07:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在OpenAI,Ultrafast如何将事件调查从几个小时减少到几分钟"
     },
     {
       "id": "97442d8e30b73df323fc",
@@ -4751,7 +4963,8 @@
       "group": "news",
       "published": "2026-10-26T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "扩大Claude的非营利组织"
     },
     {
       "id": "32ef7801f5802984dfdd",
@@ -4776,7 +4989,8 @@
       "group": "news",
       "published": "2026-10-23T17:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "迅速扩大在线存储范围,为10亿以上ChatGPT用户提供服务(第二部分)"
     },
     {
       "id": "f8c156dba7886826388b",
@@ -4788,7 +5002,8 @@
       "group": "news",
       "published": "2026-10-23T10:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "保障我国前沿示范培训环境."
     },
     {
       "id": "e16222d83dd92652e281",
@@ -4815,7 +5030,8 @@
       "group": "news",
       "published": "2026-10-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude合作和聊天 一起为企业服务"
     },
     {
       "id": "0c0b4fb70cfc16f629bc",
@@ -4829,7 +5045,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude·杜埃特安全、隐私和安全"
     },
     {
       "id": "3b5a2a6a27ab5490f80a",
@@ -4841,7 +5058,8 @@
       "group": "news",
       "published": "2026-10-23T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Anima 帮助诊所在GPT-6和GPT-Live中减少75%的通话等待"
     },
     {
       "id": "1a543055a02f9816518c",
@@ -4853,7 +5071,8 @@
       "group": "news",
       "published": "2026-10-23T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI和波兰的NASK合作伙伴,"
     },
     {
       "id": "891b7e0bbf66f86d27b7",
@@ -4865,7 +5084,8 @@
       "group": "news",
       "published": "2026-10-22T19:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "使用“决定 API” 构建更能响应的应用程序"
     },
     {
       "id": "db007afeffa315bee076",
@@ -4905,7 +5125,8 @@
       "group": "news",
       "published": "2026-10-22T06:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI 的 FDE 含义"
     },
     {
       "id": "f6a301346a05e615cdbc",
@@ -4919,7 +5140,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "LLMS使正式的软件核查在更大范围内可行"
     },
     {
       "id": "6950f6169e819866442d",
@@ -4944,7 +5166,8 @@
       "group": "news",
       "published": "2026-10-22T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "完整的Claude平台,可在Google Cloud上查阅"
     },
     {
       "id": "13225fd2d35747347372",
@@ -4958,7 +5181,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "建筑智能体: 何时将子剂折叠到您的主要代理环中"
     },
     {
       "id": "eda525050cea8fce4b13",
@@ -4970,7 +5194,8 @@
       "group": "news",
       "published": "2026-10-22T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Uber 带来了 ChatGPT 为所有雇员提供OpenAI服务"
     },
     {
       "id": "3f1a11956436b1673800",
@@ -4982,7 +5207,8 @@
       "group": "news",
       "published": "2026-10-21T21:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过一致标准广泛获取"
     },
     {
       "id": "39cad894cdd240fbe2db",
@@ -4994,7 +5220,8 @@
       "group": "news",
       "published": "2026-10-21T17:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AT&T如何反思与OpenAI的内部法律工作"
     },
     {
       "id": "3bfcd79e09f177c0e0d9",
@@ -5032,7 +5259,8 @@
       "group": "news",
       "published": "2026-10-21T13:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "聊天游戏 广告扩展到26个新国家,"
     },
     {
       "id": "95dedf578de78f3ec264",
@@ -5044,7 +5272,8 @@
       "group": "news",
       "published": "2026-10-21T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI 模型将来到谷歌云"
     },
     {
       "id": "de9db6f384cbc7887755",
@@ -5058,7 +5287,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "《星球补遗:全球反应协调,作为发现关键脆弱性的智能体》"
     },
     {
       "id": "ea92da5c121ecb452702",
@@ -5072,7 +5302,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "我们如何构建 ChatGPT 的新广告堆栈, 用于用户信任和相关性"
     },
     {
       "id": "64ddfb139fec8a1cb459",
@@ -5086,7 +5317,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "利用上千个人工智能 发现生物数据的新线索"
     },
     {
       "id": "4e2150af12a97398f6e5",
@@ -5098,7 +5330,8 @@
       "group": "news",
       "published": "2026-10-21T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "HCLTech作为全球总理伙伴加入Claude伙伴网络"
     },
     {
       "id": "9c2e899d121755363e2a",
@@ -5110,7 +5343,8 @@
       "group": "news",
       "published": "2026-10-21T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude 安全部正在持续扫描和跟踪修正"
     },
     {
       "id": "f5220dab8f55b741ff6e",
@@ -5122,7 +5356,8 @@
       "group": "news",
       "published": "2026-10-21T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "介绍Claude·杜埃特"
     },
     {
       "id": "3fe372fb2e8166f0e814",
@@ -5134,7 +5369,8 @@
       "group": "news",
       "published": "2026-10-21T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Cloudflare 将弱点发现与 OpenAI 的防御联系起来"
     },
     {
       "id": "e270f5ba4688033de075",
@@ -5146,7 +5382,8 @@
       "group": "news",
       "published": "2026-10-21T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "边界AI的民主治理,第二部分:赋予网络维权者权力"
     },
     {
       "id": "1725d137aa3debc0d8ae",
@@ -5158,7 +5395,8 @@
       "group": "news",
       "published": "2026-10-20T10:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Franchisee 用94%的时间与 ChatGPT 工作对账"
     },
     {
       "id": "aa8847d44cbae3328f3c",
@@ -5172,7 +5410,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "X号终点站与高级投资人的判决88.6%符合GPT-6.1"
     },
     {
       "id": "ac67a5f12ec971da5378",
@@ -5185,7 +5424,7 @@
       "published": "2026-10-20T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "克劳德如何设计蛋白质粘合剂对抗蝎子神经毒素"
+      "title_zh": "Claude如何设计蛋白质粘合剂对抗蝎子神经毒素"
     },
     {
       "id": "1cfb6291fa158d05a5ba",
@@ -5197,7 +5436,8 @@
       "group": "news",
       "published": "2026-10-20T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "OpenAI 获得管弦乐团 Bio"
     },
     {
       "id": "1dbe22633003a2af4fdd",
@@ -5209,7 +5449,8 @@
       "group": "news",
       "published": "2026-10-19T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "以低资源编程语言推进编码"
     },
     {
       "id": "56ee56e48ed29025cce5",
@@ -5223,7 +5464,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "在 Anthropic 重新设计源控制"
     },
     {
       "id": "9732b2763df5a67ab945",
@@ -5235,7 +5477,8 @@
       "group": "news",
       "published": "2026-10-16T19:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Itaú如何为整个客户群建立基因AI"
     },
     {
       "id": "dd1029b4b030aba3c24c",
@@ -5264,7 +5507,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Localiza如何围绕基因AI重组工作"
     },
     {
       "id": "86dbfdb5b436c283839e",
@@ -5278,7 +5522,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Grupo Boticário如何利用人工智能加强人类联系"
     },
     {
       "id": "9e63539289a31c8631b6",
@@ -5292,7 +5537,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "使用 ChatGPT 插件为代理三重签名堆叠过多流量"
     },
     {
       "id": "674c86d905c0f32e3408",
@@ -5344,7 +5590,7 @@
       "published": "2026-10-16T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "与克劳德设计更有效的量子电路"
+      "title_zh": "与Claude设计更有效的量子电路"
     },
     {
       "id": "f67896274fc0d873e39d",
@@ -5371,7 +5617,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude代码小组如何审查代码"
     },
     {
       "id": "e91e7ecea9af19108128",
@@ -5385,7 +5632,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "在日本的Anthropic BDR是如何和Claude管理智能体一起度过他的一天的"
     },
     {
       "id": "b6756c0a180ee554226c",
@@ -5397,7 +5645,8 @@
       "group": "news",
       "published": "2026-10-16T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "福利街合作伙伴用 Codex 更快地回答问题"
     },
     {
       "id": "32165ee6af8945a5bd83",
@@ -5409,7 +5658,8 @@
       "group": "news",
       "published": "2026-10-15T19:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "把GPT-Rosalind带到学术研究实验室"
     },
     {
       "id": "ad09b0946a60b7ff505a",
@@ -5447,7 +5697,8 @@
       "group": "news",
       "published": "2026-10-15T13:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "教育学生思考和通过问题学习"
     },
     {
       "id": "67e0e2ca251faa5910ae",
@@ -5459,7 +5710,8 @@
       "group": "news",
       "published": "2026-10-15T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "守则审查现已普遍提供"
     },
     {
       "id": "94eadcab22c41e356a1d",
@@ -5471,7 +5723,8 @@
       "group": "news",
       "published": "2026-10-15T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Sullivan & Cromwell将法律专门知识纳入协议审查"
     },
     {
       "id": "4c456e668ef45cba83b5",
@@ -5486,7 +5739,7 @@
         "Agent"
       ],
       "origin": "official",
-      "title_zh": "让地球AI发挥作用:地球最大挑战的地理空间代理人"
+      "title_zh": "让地球AI发挥作用:地球最大挑战的地理空间智能体"
     },
     {
       "id": "6c3fa003d587daac7dd7",
@@ -5526,7 +5779,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AMP 将 AI 代理与 OpenAI 模型进行超越代码的工作"
     },
     {
       "id": "004cd593adabcd24c97d",
@@ -5538,7 +5792,8 @@
       "group": "news",
       "published": "2026-10-14T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "\"哨兵一号\"将恶意软件分析从数周缩短至数小时"
     },
     {
       "id": "a8b8c31de898145e14c8",
@@ -5552,7 +5807,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "第三个时刻研究如何在36小时以上运行10 000个毒剂"
     },
     {
       "id": "94ee28b93f9d2d830319",
@@ -5564,7 +5820,8 @@
       "group": "news",
       "published": "2026-10-14T07:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Block如何用OpenAI技术建设AI动力安全"
     },
     {
       "id": "36a7e1c23fbbe3b1fdc0",
@@ -5591,7 +5848,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "欧盟在AI的下一章是代理性的"
     },
     {
       "id": "32da3a7739a4e1014e3d",
@@ -5605,7 +5863,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude平台上的可观察性"
     },
     {
       "id": "8b1ab1df41ac00d8450a",
@@ -5618,7 +5877,7 @@
       "published": "2026-10-13T19:43:07Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "负责任地和安全地发展双子座四号卫星"
+      "title_zh": "负责任地和安全地发展Gemini四号卫星"
     },
     {
       "id": "94cc08977f17740f09c1",
@@ -5631,7 +5890,7 @@
       "published": "2026-10-13T16:01:58Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "机器人双子座4Argon"
+      "title_zh": "机器人Gemini4Argon"
     },
     {
       "id": "851107eacfc8ba0f286d",
@@ -5644,7 +5903,7 @@
       "published": "2026-10-13T16:01:52Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "双子座 4 Argon: 用来解决你最难的问题"
+      "title_zh": "Gemini 4 Argon: 用来解决你最难的问题"
     },
     {
       "id": "8d45898e533e591d4241",
@@ -5656,7 +5915,8 @@
       "group": "news",
       "published": "2026-10-13T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Higgsfield从1分钟到10分钟拍摄AI视频"
     },
     {
       "id": "ff44501d216cdf266561",
@@ -5683,7 +5943,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Uber的CISO在为AI建立内幕威胁程序"
     },
     {
       "id": "e3ff286dbca97504a483",
@@ -5738,7 +5999,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Asana 剪切模型在使用 GPT-6.1 的浏览器测试中花费 76x Sol"
     },
     {
       "id": "570fe3204556675e8dd9",
@@ -5750,7 +6012,8 @@
       "group": "news",
       "published": "2026-10-09T07:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "索福斯在OpenAI Daybreak上将威胁调查时间缩短96%"
     },
     {
       "id": "e53d362bf380fa3a299a",
@@ -5775,7 +6038,8 @@
       "group": "news",
       "published": "2026-10-08T16:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Oracle 如何将工作日变成与 ChatGPT 和 Codex 的分钟"
     },
     {
       "id": "855092fba1df7e8a668b",
@@ -5787,7 +6051,8 @@
       "group": "news",
       "published": "2026-10-08T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Pollo AI 将创意思想转化为与 OpenAI 的宣传活动"
     },
     {
       "id": "45d6a2b79938283a07ca",
@@ -5799,7 +6064,8 @@
       "group": "news",
       "published": "2026-10-08T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在保持发展速度的同时降低法典成本的法律"
     },
     {
       "id": "4d1871c0e2f96e266ba7",
@@ -5839,7 +6105,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "建立有效的代理自动化设备"
     },
     {
       "id": "eab494be28572104b531",
@@ -5853,7 +6120,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Block如何管弦乐 Claude・费布尔 跨越成千上万的牵引请求"
     },
     {
       "id": "2eea8542a0bf0fd1619f",
@@ -5865,7 +6133,8 @@
       "group": "news",
       "published": "2026-10-08T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "和Claude一起搭建现场仪表板和动画解释器"
     },
     {
       "id": "d9e485b409fe8517ac6e",
@@ -5877,7 +6146,8 @@
       "group": "news",
       "published": "2026-10-08T00:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "干扰大赦国际发起的“虚假前线”行动"
     },
     {
       "id": "b96cc914fffc078602a8",
@@ -5918,7 +6188,8 @@
       "group": "news",
       "published": "2026-10-07T12:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "帮助青少年学习、规划和塑造AI的未来"
     },
     {
       "id": "cdb1d51fae0431106fed",
@@ -5930,7 +6201,8 @@
       "group": "news",
       "published": "2026-10-07T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude·海库 5.5"
     },
     {
       "id": "757c4a0eaeb2d4a7c406",
@@ -5942,7 +6214,8 @@
       "group": "news",
       "published": "2026-10-07T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "与Claude一起自动进行eval设计和丘陵攀登"
     },
     {
       "id": "c11a83f73b42d7563944",
@@ -5984,7 +6257,8 @@
       "group": "news",
       "published": "2026-10-06T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "扩大网络核查方案"
     },
     {
       "id": "f483b4ea79f32dd526b7",
@@ -5996,7 +6270,8 @@
       "group": "news",
       "published": "2026-10-06T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "云中的Claude代码:云会场指南"
     },
     {
       "id": "565b5fa1fe378b99c964",
@@ -6008,7 +6283,8 @@
       "group": "news",
       "published": "2026-10-06T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "我们正在扩大Claude创业计划,"
     },
     {
       "id": "65a0c87cd66880d992e5",
@@ -6020,7 +6296,8 @@
       "group": "news",
       "published": "2026-10-06T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Comcast和Booz Allen如何利用Claude Mythos 寻找剥削链条并保护他们的密码库"
     },
     {
       "id": "c115ce57a51e58c9dac6",
@@ -6032,7 +6309,8 @@
       "group": "news",
       "published": "2026-10-06T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude现在与Google Docs, Sheets, 和幻灯片合作"
     },
     {
       "id": "7eeb0a9dde53453907ec",
@@ -6061,7 +6339,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "克雷斯塔如何将CX的专业知识变成Claude智能体SDK上的代理制造者"
     },
     {
       "id": "a47750453f6e45044c5c",
@@ -6101,7 +6380,8 @@
       "group": "news",
       "published": "2026-10-01T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "开始使用 Claude 代码模式"
     },
     {
       "id": "bded8ab9ae7c95b440d5",
@@ -6113,7 +6393,8 @@
       "group": "news",
       "published": "2026-10-01T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "用 Mods 自定义 Claude 代码"
     },
     {
       "id": "ce56aa83d0064ef1be25",
@@ -6126,7 +6407,7 @@
       "published": "2026-09-30T20:01:45Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "双子座4 Argon:我们的下一个边境情报时代"
+      "title_zh": "Gemini4 Argon:我们的下一个边境情报时代"
     },
     {
       "id": "63e9a822faf54946f1af",
@@ -6179,7 +6460,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Anthropic的销售团队如何重建 与Claude管理代理"
     },
     {
       "id": "4c16811bc5e83ebd7e3c",
@@ -6191,7 +6473,8 @@
       "group": "news",
       "published": "2026-09-30T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude政府现在可以普遍使用"
     },
     {
       "id": "5cc8f180d7d24936a059",
@@ -6231,7 +6514,8 @@
       "group": "research",
       "published": "2026-09-29T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "GLM-5.3和先进网络能力的传播"
     },
     {
       "id": "7473d39d24b77a58d8d7",
@@ -6245,7 +6529,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "你可以当教练的智能体们: 阿萨纳如何与Claude一起建立人类代理团队"
     },
     {
       "id": "44f05cd4693f7cddaf58",
@@ -6260,7 +6545,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "StatePortal:交互式软件测试深层状态的代理检查点合成"
     },
     {
       "id": "4e3ca8a95d36633072bd",
@@ -6272,7 +6558,8 @@
       "group": "news",
       "published": "2026-09-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude·索内 5.5"
     },
     {
       "id": "4cbdae7dd05a592c2fdc",
@@ -6284,7 +6571,8 @@
       "group": "news",
       "published": "2026-09-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "与Claude Sonnet 5.5合楼"
     },
     {
       "id": "0c72b1da11988a216fdc",
@@ -6298,7 +6586,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "赋予公司对其AI代理的更多控制权,NVIDIA"
     },
     {
       "id": "e49faaf95243e18293da",
@@ -6310,7 +6599,8 @@
       "group": "research",
       "published": "2026-09-25T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "是的,Claude可以做九圈"
     },
     {
       "id": "118f2df21c64a881d40b",
@@ -6322,7 +6612,8 @@
       "group": "news",
       "published": "2026-09-25T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Opus 5.5的任务成本"
     },
     {
       "id": "806ec4a7156a70d23a7a",
@@ -6334,7 +6625,8 @@
       "group": "news",
       "published": "2026-09-25T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "使用 Claude 代码: 花费你的努力"
     },
     {
       "id": "0e35385a3669055eb197",
@@ -6346,7 +6638,8 @@
       "group": "news",
       "published": "2026-09-25T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "为Claude构建插件"
     },
     {
       "id": "8451e6726f3673677215",
@@ -6374,7 +6667,7 @@
       "published": "2026-09-24T16:20:39Z",
       "tags": [],
       "origin": "official",
-      "title_zh": "引入双子座 3.8 与神通同住"
+      "title_zh": "引入Gemini 3.8 与神通同住"
     },
     {
       "id": "c4f6b71acc4936ffd81d",
@@ -6388,7 +6681,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "交换计划:当代理商为我们进行交易时会发生什么?"
     },
     {
       "id": "bf450a65ef1605bbab8a",
@@ -6400,7 +6694,8 @@
       "group": "news",
       "published": "2026-09-24T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude 现在标记支持频道中的个人连接器"
     },
     {
       "id": "c8b94e6d325e1dc9a043",
@@ -6412,7 +6707,8 @@
       "group": "news",
       "published": "2026-09-24T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "编码会话较长,使用更多的上下文. Claude·奥普斯·5.5就是以此为念的。"
     },
     {
       "id": "68ead6b6af2b71441cd0",
@@ -6424,7 +6720,8 @@
       "group": "research",
       "published": "2026-09-23T16:00:57Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "用安全的服务器侧内存推进私人 AI 计算"
     },
     {
       "id": "81481aa316e38773fdfe",
@@ -6436,7 +6733,8 @@
       "group": "research",
       "published": "2026-09-23T15:25:14Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gemini3.8对讲机打招呼"
     },
     {
       "id": "73e86071f981e7f05e2d",
@@ -6448,7 +6746,8 @@
       "group": "research",
       "published": "2026-09-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude发现了一个带有类似CRISPR的重复体的新酶系统"
     },
     {
       "id": "ef1b3a4772eab8370f46",
@@ -6460,7 +6759,8 @@
       "group": "research",
       "published": "2026-09-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude发现了一个带有类似CRISPR的重复体的新酶系统"
     },
     {
       "id": "49491069707aafe8da99",
@@ -6472,7 +6772,8 @@
       "group": "news",
       "published": "2026-09-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "两周后我们怎么把Claude.ai 3x更快"
     },
     {
       "id": "9d1a27ac9ae26cbd5dfd",
@@ -6484,7 +6785,8 @@
       "group": "news",
       "published": "2026-09-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "如何筹备AI驱动的代码现代化项目"
     },
     {
       "id": "59dae8a2ec32ad993753",
@@ -6496,7 +6798,8 @@
       "group": "news",
       "published": "2026-09-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "如何用雪花和Vercel在Claude Marketplace 上的 CodeRabbit, Power Digital, 和 ThoughtSpot 比例"
     },
     {
       "id": "327deaf19f37a4ab1d15",
@@ -6510,7 +6813,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude Marketplace:一个发现插件、代理商和合作伙伴服务的地方"
     },
     {
       "id": "337e3f19ed608da6ed2e",
@@ -6522,7 +6826,8 @@
       "group": "news",
       "published": "2026-09-22T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "在Claude和Claude代码中获得最多的奥普斯5.5"
     },
     {
       "id": "a7f1f0b4928f996bc8f6",
@@ -6560,7 +6865,8 @@
       "group": "research",
       "published": "2026-09-17T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude是如何提升生物分子模型的"
     },
     {
       "id": "044e6af5229b55736c8e",
@@ -6572,7 +6878,8 @@
       "group": "research",
       "published": "2026-09-17T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "点亮边界"
     },
     {
       "id": "7e8e602d97f070a7ccd7",
@@ -6584,7 +6891,8 @@
       "group": "news",
       "published": "2026-09-17T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Balyasny资产管理如何评价和管理Claude Fable 5"
     },
     {
       "id": "60e5719ddad5001df4ba",
@@ -6596,7 +6904,8 @@
       "group": "news",
       "published": "2026-09-17T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "重新设计的项目:从文件夹到对话"
     },
     {
       "id": "c8cbec2f254994f2f904",
@@ -6608,7 +6917,8 @@
       "group": "news",
       "published": "2026-09-16T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude合作和聊天 现在是一个Claude"
     },
     {
       "id": "f174ca4a3cbc866f5f12",
@@ -6635,7 +6945,8 @@
       "group": "research",
       "published": "2026-09-15T17:05:57Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入Gemini 3.8 Live和 3.8 Live 扩展思维"
     },
     {
       "id": "a990be618dbd39457d53",
@@ -6647,7 +6958,8 @@
       "group": "news",
       "published": "2026-09-15T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "将销售力量带入Claude"
     },
     {
       "id": "e0e2d5ce9e918331a6f1",
@@ -6659,7 +6971,8 @@
       "group": "news",
       "published": "2026-09-15T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude for Small Business推出新的工作流程、整合和培训方案"
     },
     {
       "id": "42de56bbcaf5981087bf",
@@ -6671,7 +6984,8 @@
       "group": "news",
       "published": "2026-09-15T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "建立一个AI-本土收入组织"
     },
     {
       "id": "29741e0c3c539d6a2765",
@@ -6685,7 +6999,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "医疗组织如何使用Claude Tag"
     },
     {
       "id": "5f1d085231f9c399b54e",
@@ -6697,7 +7012,8 @@
       "group": "news",
       "published": "2026-09-14T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "将AI从飞行员部署到生产"
     },
     {
       "id": "e1329d0c05f9370456dd",
@@ -6711,7 +7027,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "代理编码是紧张的CI。 这就是我们如何在Anthropic 进行测试影响分析"
     },
     {
       "id": "aa8533b1c5b411fc0ea7",
@@ -6725,7 +7042,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "ToolGrad: 具有文字“ 梯度” 的高效工具使用数据集生成"
     },
     {
       "id": "7160cfc6b1914a7ee326",
@@ -6737,7 +7055,8 @@
       "group": "research",
       "published": "2026-09-10T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "衡量AI模型的战术情报瞄准和常规武器能力"
     },
     {
       "id": "faeb31ec1161656de82b",
@@ -6749,7 +7068,8 @@
       "group": "news",
       "published": "2026-09-10T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "1000个小企业主教给我们的AI"
     },
     {
       "id": "94255daaa1fb68ad30d5",
@@ -6761,7 +7081,8 @@
       "group": "news",
       "published": "2026-09-10T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "T. Rowe Price为Claude的投资进程带来了更多的投入"
     },
     {
       "id": "415f8f1af13b2f4b5659",
@@ -6775,7 +7096,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "近期网络安全事件的统一评估"
     },
     {
       "id": "eaff98a3f97710858822",
@@ -6787,7 +7109,8 @@
       "group": "research",
       "published": "2026-09-09T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "我们经济未来的前景"
     },
     {
       "id": "f0e27f432f48fb866973",
@@ -6799,7 +7122,8 @@
       "group": "research",
       "published": "2026-09-08T14:00:15Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AlphaGenome Atlas:人类基因组中每个可能的DNA字母变化的预测图"
     },
     {
       "id": "0b59bf56664fec1a5b88",
@@ -6811,7 +7135,8 @@
       "group": "news",
       "published": "2026-09-08T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "与Claude平台一起降低成本和改善业绩"
     },
     {
       "id": "e94fc2f0f03f56919cc9",
@@ -6823,7 +7148,8 @@
       "group": "research",
       "published": "2026-09-04T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "把费马的最后定理正式化"
     },
     {
       "id": "8d723f6dece8e3e64bae",
@@ -6835,7 +7161,8 @@
       "group": "research",
       "published": "2026-09-03T18:20:31Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在代表性不足的人群中进行基因组预测的转移学习"
     },
     {
       "id": "8b075fa7888e4c355356",
@@ -6847,7 +7174,8 @@
       "group": "research",
       "published": "2026-09-03T16:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "一个连接学里程碑:绘制完整的雄果蝇脑图"
     },
     {
       "id": "2b0379511ea0511400ff",
@@ -6859,7 +7187,8 @@
       "group": "research",
       "published": "2026-09-03T15:02:08Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入WeatherNext 3,我们最先进和准确的全球天气AI模型"
     },
     {
       "id": "d721843382f3485e8d6d",
@@ -6871,7 +7200,8 @@
       "group": "research",
       "published": "2026-09-02T16:24:24Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "政府和企业的主动网络防御"
     },
     {
       "id": "63b19b50b4021cb509d5",
@@ -6883,7 +7213,8 @@
       "group": "research",
       "published": "2026-09-02T16:18:31Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入Gemini 3.8 Flash 和 3.8 Flash Cyber"
     },
     {
       "id": "3827492c2fe535df9f60",
@@ -6897,7 +7228,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "有效商业智能体解剖指南"
     },
     {
       "id": "77c5bc159b3cc29da48b",
@@ -6911,7 +7243,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "与Claude建立商务代理"
     },
     {
       "id": "62800b7caea9d8447ca2",
@@ -6923,7 +7256,8 @@
       "group": "research",
       "published": "2026-09-01T18:40:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "以深入学习的方式绘制全球空间甲烷排放图"
     },
     {
       "id": "20b040f8e58f31e96773",
@@ -6937,7 +7271,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入与Gemini的代理视频理解"
     },
     {
       "id": "e61516fc5f0a08ab1185",
@@ -6951,7 +7286,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "TimesFM-3:用于多变预测的零镜头基础模型"
     },
     {
       "id": "a9acbff7bd542e61d9b0",
@@ -6965,7 +7301,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "自动化研究者能够可靠地缓解调整失败"
     },
     {
       "id": "8c5bb36ccf4193d432ae",
@@ -6977,7 +7314,8 @@
       "group": "news",
       "published": "2026-08-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Anthropic 员工如何使用 Claude Tag"
     },
     {
       "id": "20c393d7ea3b1c775993",
@@ -6989,7 +7327,8 @@
       "group": "news",
       "published": "2026-08-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude for Teachers,现供美国K-12学校和地区使用"
     },
     {
       "id": "d4c4006fefc6f64193fc",
@@ -7001,7 +7340,8 @@
       "group": "research",
       "published": "2026-08-27T17:37:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "行星预测引擎:通过地球AI实现全球模型自动化."
     },
     {
       "id": "74b1125af8681de125d4",
@@ -7013,7 +7353,8 @@
       "group": "research",
       "published": "2026-08-27T16:11:32Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gemini 1.1 闪光让您用更多的控制来构建"
     },
     {
       "id": "71c43cf780d371eea283",
@@ -7025,7 +7366,8 @@
       "group": "research",
       "published": "2026-08-27T12:59:16Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "世界首个双盲AI评价试点."
     },
     {
       "id": "8b2ec93c5681d86c13bb",
@@ -7039,7 +7381,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "GlucoFM:持续葡萄糖监测的基础模型"
     },
     {
       "id": "ac6eb9276806c2f8127d",
@@ -7051,7 +7394,8 @@
       "group": "research",
       "published": "2026-08-26T17:01:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gemini3.5转写机"
     },
     {
       "id": "f4efc55098543f59e5e3",
@@ -7063,7 +7407,8 @@
       "group": "research",
       "published": "2026-08-26T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "促成关于人们如何利用Claude的独立研究"
     },
     {
       "id": "65e29c30cd4014db34e0",
@@ -7077,7 +7422,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "WARP如何在Claude身上建立自我改进的代理"
     },
     {
       "id": "2ffdfecb06b48aa98d53",
@@ -7089,7 +7435,8 @@
       "group": "news",
       "published": "2026-08-26T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude 在 Cowork 获得自己的浏览器"
     },
     {
       "id": "78fb2d687aacc1781776",
@@ -7101,7 +7448,8 @@
       "group": "news",
       "published": "2026-08-26T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude in Chrome一般可以访问"
     },
     {
       "id": "11eace409cbddaf9fb02",
@@ -7116,7 +7464,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "PGPO: 隐私保护的原型指导性进步障碍强化建议"
     },
     {
       "id": "16b919027b43c28e9ba7",
@@ -7130,7 +7479,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AgentHands:为基于空间的XR代理对话生成交互式手势"
     },
     {
       "id": "3473fcbe5c38424681bc",
@@ -7142,7 +7492,8 @@
       "group": "news",
       "published": "2026-08-25T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude的记忆到处都有作用 你决定里面是什么"
     },
     {
       "id": "b364b2d41e306462b8ad",
@@ -7154,7 +7505,8 @@
       "group": "news",
       "published": "2026-08-25T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Bain & Company作为全球总理伙伴加入Claude伙伴网络"
     },
     {
       "id": "c08c8947949025881e3e",
@@ -7166,7 +7518,8 @@
       "group": "news",
       "published": "2026-08-24T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Anthropic的外地营销员如何使用Claude代码向每个销售代表发送每周个性化更新"
     },
     {
       "id": "a21cee4b91bda9f5c68b",
@@ -7178,7 +7531,8 @@
       "group": "research",
       "published": "2026-08-21T17:02:24Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "从可穿戴的传感器数据中确定候选生物标记优先次序的AI工具"
     },
     {
       "id": "835a331a5b20ce16b68a",
@@ -7190,7 +7544,8 @@
       "group": "research",
       "published": "2026-08-21T11:59:48Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "从Atari到EVE Online:基于15年的AI游戏研究"
     },
     {
       "id": "4f98c5029119950e7f82",
@@ -7204,7 +7559,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "流动如何使语言模型更深入地了解位置"
     },
     {
       "id": "95a2094aeeaf3ba5e299",
@@ -7216,7 +7572,8 @@
       "group": "news",
       "published": "2026-08-21T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "AI-本土 SDLC 游戏本"
     },
     {
       "id": "2b01ef286cbe1110a4e5",
@@ -7228,7 +7585,8 @@
       "group": "news",
       "published": "2026-08-21T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "把Claude·神话5的网络安全能力带给更多的维权者"
     },
     {
       "id": "d639e5b49488015d73e4",
@@ -7242,7 +7600,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "周一.com如何将其平台变成人类和智能体合作的第一代理产品"
     },
     {
       "id": "afb5a1baaaa7f765d3a2",
@@ -7256,7 +7615,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "使用计算机构建制作代理、 技能 API 和 文件 API"
     },
     {
       "id": "39586be2f1fcf023e1f9",
@@ -7268,7 +7628,8 @@
       "group": "news",
       "published": "2026-08-20T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "初创企业的 Claude 代码指南"
     },
     {
       "id": "34ebf0489b34a5fc34cd",
@@ -7280,7 +7641,8 @@
       "group": "news",
       "published": "2026-08-20T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Anthropic的教学方法"
     },
     {
       "id": "8b2f413578311e9011b4",
@@ -7294,7 +7656,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "将对话转化为知识:Slack如何构建人类代理团队"
     },
     {
       "id": "a52e9d71e445a46231be",
@@ -7306,7 +7669,8 @@
       "group": "research",
       "published": "2026-08-18T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude是如何加速蛋白质设计和分析化学的"
     },
     {
       "id": "6eea4a089f0fab4bc7d6",
@@ -7320,7 +7684,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude在呼叫中:Claude Tag如何担任Anthropic对CI/CD故障的第一反应者"
     },
     {
       "id": "3610856e0c1fd406f401",
@@ -7332,7 +7697,8 @@
       "group": "research",
       "published": "2026-08-17T10:34:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "超越BMI:用智能手机图像估计心肌病风险"
     },
     {
       "id": "aeeaa986e159187e406c",
@@ -7346,7 +7712,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "ABC Law是如何让每个员工 与Claude管理智能体一起成为建筑商的"
     },
     {
       "id": "19a2c41ea49bcbe95d11",
@@ -7358,7 +7725,8 @@
       "group": "news",
       "published": "2026-08-14T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "最大化您的 Claude 代码会话的值"
     },
     {
       "id": "43643a3dd841363b8ac9",
@@ -7370,7 +7738,8 @@
       "group": "research",
       "published": "2026-08-13T17:04:18Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入Gemini3.7闪光灯"
     },
     {
       "id": "f87e14ef06b6e708ed2e",
@@ -7382,7 +7751,8 @@
       "group": "research",
       "published": "2026-08-13T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "新兴多剂系统的模式和问题"
     },
     {
       "id": "0884ea8c1012f53ac711",
@@ -7394,7 +7764,8 @@
       "group": "news",
       "published": "2026-08-13T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Slack的自助数据分析:Anthropic如何将Claude Tag用于临时问题"
     },
     {
       "id": "66c1793d494899ed43e9",
@@ -7408,7 +7779,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "保障边境安全:JetBrains如何评估和部署Claude Fable 5"
     },
     {
       "id": "b1e3bd713400bfa884b5",
@@ -7420,7 +7792,8 @@
       "group": "news",
       "published": "2026-08-13T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude 标记现在读更多房间"
     },
     {
       "id": "1357a9ae7911e1d557ac",
@@ -7432,7 +7805,8 @@
       "group": "research",
       "published": "2026-08-12T14:01:59Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "使用手语AI"
     },
     {
       "id": "f8e28bf01720e2679e59",
@@ -7444,7 +7818,8 @@
       "group": "research",
       "published": "2026-08-12T09:51:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "空的书架还是丢失的密钥? 回想一下,是参数化事实的瓶颈"
     },
     {
       "id": "f2323421e5e51bb84aa7",
@@ -7456,7 +7831,8 @@
       "group": "research",
       "published": "2026-08-12T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "审查工人再培训方案的证据"
     },
     {
       "id": "cbda4564d170a8dfd1df",
@@ -7468,7 +7844,8 @@
       "group": "news",
       "published": "2026-08-12T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "克洛姆的Claude侧面板现在是Claude Cowork"
     },
     {
       "id": "841e1b55054db5ab881b",
@@ -7480,7 +7857,8 @@
       "group": "research",
       "published": "2026-08-11T17:04:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "推进AMIE走向专家级视听临床咨询."
     },
     {
       "id": "1d53def10d28af817fb1",
@@ -7492,7 +7870,8 @@
       "group": "news",
       "published": "2026-08-11T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "遵守 API 的涵盖范围扩大到 Claude Cowork 和 Claude 代码"
     },
     {
       "id": "ad55208f067fb11b6a51",
@@ -7504,7 +7883,8 @@
       "group": "research",
       "published": "2026-08-10T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "更多地了解Claude的数学能力"
     },
     {
       "id": "c38bc920b02dabcf7175",
@@ -7516,7 +7896,8 @@
       "group": "news",
       "published": "2026-08-07T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Anthropic的商务开发团队如何利用Claude大规模进出"
     },
     {
       "id": "1c14759126e516b36ed1",
@@ -7528,7 +7909,8 @@
       "group": "news",
       "published": "2026-08-07T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "生产中运行自动模式"
     },
     {
       "id": "c8eb0e8df1440fbe958e",
@@ -7542,7 +7924,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "自动模式现在是 Claude Code 对Pro, Max 和Team 计划的默认"
     },
     {
       "id": "1986eab2e2ed84ba8b77",
@@ -7554,7 +7937,8 @@
       "group": "research",
       "published": "2026-08-06T15:06:15Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "WeatherNext:AI模型在预报气旋方面实现了突破"
     },
     {
       "id": "727a086e87de25259cc9",
@@ -7566,7 +7950,8 @@
       "group": "news",
       "published": "2026-08-06T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "在自己的计算中运行 Claude 代码会话"
     },
     {
       "id": "e390cf3e230a4ff47c43",
@@ -7578,7 +7963,8 @@
       "group": "news",
       "published": "2026-08-06T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "千禧年和Anthropic正在和Claude一起建立一个数字风险分析师"
     },
     {
       "id": "f67cb7a1fa4d9a80f65c",
@@ -7592,7 +7978,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "推论钩:Claude Entertainment的内置数据丢失预防"
     },
     {
       "id": "155b71ded92dbfcba552",
@@ -7604,7 +7991,8 @@
       "group": "news",
       "published": "2026-08-04T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude的成本能见度和控制指南"
     },
     {
       "id": "0b46c3a73d060b7d84c1",
@@ -7618,7 +8006,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "科学一个框架:通过证据链可核查的自主研究框架"
     },
     {
       "id": "614d79e4a866af7d0adf",
@@ -7630,7 +8019,8 @@
       "group": "research",
       "published": "2026-07-30T15:00:59Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "双子机器人ER2: 以视频理解、任务管弦和多机器人协作为机器人提供动力"
     },
     {
       "id": "05b5e14c97505dcc5509",
@@ -7642,7 +8032,8 @@
       "group": "research",
       "published": "2026-07-29T16:02:10Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "包括音乐、歌词、声调和创意控制,"
     },
     {
       "id": "42a1992e4b242ffc8c8c",
@@ -7654,7 +8045,8 @@
       "group": "research",
       "published": "2026-07-28T13:21:37Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "双子机器人2把整个身体的智能带到机器人身上"
     },
     {
       "id": "5f83f5347c32a35f18a9",
@@ -7666,7 +8058,8 @@
       "group": "research",
       "published": "2026-07-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "发现与Claude的加密弱点"
     },
     {
       "id": "4a6e257967afa4175b6b",
@@ -7678,7 +8071,8 @@
       "group": "news",
       "published": "2026-07-28T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "带MCP 2026-07-28给Claude"
     },
     {
       "id": "47fb1c35deeeb68f8c1d",
@@ -7690,7 +8084,8 @@
       "group": "research",
       "published": "2026-07-24T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "项目飞行员:AI能控制无人机吗?."
     },
     {
       "id": "1cd5d2f8ba12a4649653",
@@ -7704,7 +8099,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude 5代模型的新背景工程规则"
     },
     {
       "id": "8e418fc06184a07b7c2a",
@@ -7716,7 +8112,8 @@
       "group": "news",
       "published": "2026-07-24T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude 5代模型的新背景工程规则"
     },
     {
       "id": "2ba894a78cc5b6e183f6",
@@ -7730,7 +8127,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "症状AI:面向日常症状评估的对话AI代理"
     },
     {
       "id": "debff6b9cebb34409cae",
@@ -7742,7 +8140,8 @@
       "group": "research",
       "published": "2026-07-22T18:40:21Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "走向从错误中吸取教训的量子计算机"
     },
     {
       "id": "a821810ee2b72f165795",
@@ -7754,7 +8153,8 @@
       "group": "research",
       "published": "2026-07-22T13:38:54Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "加速科学发现的前沿:谷歌对创世纪使命的40M承诺"
     },
     {
       "id": "e38a2bc2474832f28ea9",
@@ -7766,7 +8166,8 @@
       "group": "research",
       "published": "2026-07-21T15:16:30Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入Gemini 3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber"
     },
     {
       "id": "b5de177ccc831b459c55",
@@ -7778,7 +8179,8 @@
       "group": "research",
       "published": "2026-07-17T15:00:11Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入Gemini3.5闪光网络"
     },
     {
       "id": "53ad893ddb18c2e18d2e",
@@ -7790,7 +8192,8 @@
       "group": "research",
       "published": "2026-07-16T09:30:42Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "我们的生物应变方法"
     },
     {
       "id": "a82f074d7751f00a55a5",
@@ -7802,7 +8205,8 @@
       "group": "research",
       "published": "2026-07-15T18:06:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "努力解析传播模式的创造性"
     },
     {
       "id": "0e537c3c4d4b3d5bdc35",
@@ -7814,7 +8218,8 @@
       "group": "research",
       "published": "2026-07-14T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "加拿大如何使用Claude:来自雅典经济指数的结论"
     },
     {
       "id": "13f77bbb5cb944085e24",
@@ -7826,7 +8231,8 @@
       "group": "research",
       "published": "2026-07-13T12:37:28Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "用ATL Saathi赋予印度下一代创新者权力"
     },
     {
       "id": "dbe42569b9cac6f135ab",
@@ -7838,7 +8244,8 @@
       "group": "research",
       "published": "2026-07-13T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude在模型和语言上的价值观"
     },
     {
       "id": "5905604e7ae726c575f5",
@@ -7850,7 +8257,8 @@
       "group": "research",
       "published": "2026-07-09T09:56:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "传感器FM:建立可穿戴健康数据的一般智能和接口"
     },
     {
       "id": "527fa4738dcd75e9f00a",
@@ -7862,7 +8270,8 @@
       "group": "research",
       "published": "2026-07-09T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "Claude玩机器人"
     },
     {
       "id": "ae0ec71fdcb44d6548b3",
@@ -7874,7 +8283,8 @@
       "group": "research",
       "published": "2026-07-08T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "AI模型中双重用途知识的关闭开关"
     },
     {
       "id": "c5c1b5d6c5b2191c5676",
@@ -7886,7 +8296,8 @@
       "group": "research",
       "published": "2026-07-07T16:42:08Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "协作的力量:如何减少交通拥堵."
     },
     {
       "id": "b36169a44d2ecc6a9ad1",
@@ -7900,7 +8311,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "语言模型的全球工作空间"
     },
     {
       "id": "f6b3f809726c47bb24c0",
@@ -7912,7 +8324,8 @@
       "group": "research",
       "published": "2026-07-03T14:25:43Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Google DeepMind 和 A24 宣布其首创研究伙伴关系"
     },
     {
       "id": "080f0aead5a580795d64",
@@ -7924,7 +8337,8 @@
       "group": "research",
       "published": "2026-06-30T17:03:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "将我们的热复原力数据扩大到50多个全球城市"
     },
     {
       "id": "270bf5aff18a95d12deb",
@@ -7936,7 +8350,8 @@
       "group": "research",
       "published": "2026-06-30T16:02:40Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "开始与纳诺香蕉2 Lite和GeminiOmni闪电一起建造"
     },
     {
       "id": "6b3146e22e33d7440504",
@@ -7950,7 +8365,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入 TabFM: 表格数据零镜头基础模型"
     },
     {
       "id": "e44d5aec7e5b91f93e1c",
@@ -7962,7 +8378,8 @@
       "group": "research",
       "published": "2026-06-26T18:30:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在像素上加速Gemini纳米模型,并带有冷冻的多托肯预测"
     },
     {
       "id": "41879d61cf677babbbad",
@@ -7974,7 +8391,8 @@
       "group": "research",
       "published": "2026-06-26T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "雅典经济指数报告:卡登斯"
     },
     {
       "id": "93a32912b346cd78414f",
@@ -7986,7 +8404,8 @@
       "group": "research",
       "published": "2026-06-25T10:03:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "用线性弹性缓存优化云经济学"
     },
     {
       "id": "c475917a9bf67f339ed9",
@@ -8000,7 +8419,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "思考回顾:推理如何解锁LLMS中的参数化知识"
     },
     {
       "id": "172fd12b4fe6c6e04c47",
@@ -8012,7 +8432,8 @@
       "group": "research",
       "published": "2026-06-24T16:30:01Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "在Gemini3.5 Flash中使用计算机"
     },
     {
       "id": "17e0c5a039fdf99c2216",
@@ -8024,7 +8445,8 @@
       "group": "research",
       "published": "2026-06-18T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "工程获取: 第二阶段"
     },
     {
       "id": "334cabed9c982aa6b78e",
@@ -8036,7 +8458,8 @@
       "group": "research",
       "published": "2026-06-16T21:29:50Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "以AI加速规划解锁英国住宅建筑"
     },
     {
       "id": "383e6c81094b10481ffb",
@@ -8048,7 +8471,8 @@
       "group": "research",
       "published": "2026-06-16T17:30:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "从像素到规划:用于自然修复的地球AI"
     },
     {
       "id": "45bc33c734d049b3f6ff",
@@ -8062,7 +8486,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "保障大赦国际工作人员的未来"
     },
     {
       "id": "a6ebb163a6c3bf175c39",
@@ -8076,7 +8501,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "代理编码和持续恢复专门知识"
     },
     {
       "id": "c072547560a5b46b096a",
@@ -8088,7 +8514,8 @@
       "group": "research",
       "published": "2026-06-12T17:52:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "研究AI如何帮助用户理解皮肤状况."
     },
     {
       "id": "0fc7ad260e9ac9bba327",
@@ -8100,7 +8527,8 @@
       "group": "research",
       "published": "2026-06-12T17:37:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "你退休手机上的低碳计算平台"
     },
     {
       "id": "f6ada6212f5639c65436",
@@ -8112,7 +8540,8 @@
       "group": "research",
       "published": "2026-06-10T17:34:55Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "审计机器不学习的新框架"
     },
     {
       "id": "e424724a1fa2a12d7fb2",
@@ -8124,7 +8553,8 @@
       "group": "research",
       "published": "2026-06-10T16:24:11Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "传播Gemma: 4x更快的文本生成"
     },
     {
       "id": "416f1eec7676dbeb9ae8",
@@ -8138,7 +8568,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "投资于多智能体AI安全研究"
     },
     {
       "id": "45b0a390bb942370762c",
@@ -8150,7 +8581,8 @@
       "group": "research",
       "published": "2026-06-09T15:16:25Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Fluid, 自然语音翻译, Gemini3.5 Live Translate"
     },
     {
       "id": "533d0694cd8a54af3062",
@@ -8164,7 +8596,8 @@
       "tags": [
         "多模态"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入 Gemma 4 12B: 统一、无编码的多式联运模式"
     },
     {
       "id": "6154bab88f7c340ca0fd",
@@ -8176,7 +8609,8 @@
       "group": "research",
       "published": "2026-06-09T14:02:33Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "欧洲机器人未来的动力"
     },
     {
       "id": "3d5aa39d0e80ce2a32a4",
@@ -8188,7 +8622,8 @@
       "group": "research",
       "published": "2026-06-08T13:04:59Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "衡量在塞拉利昂内外与大赦国际学习的影响"
     },
     {
       "id": "823aee61729ce1299fec",
@@ -8202,7 +8637,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "计量法学硕士对非日开发的影响"
     },
     {
       "id": "c9f129f3c5302e32cbc0",
@@ -8216,7 +8652,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "为生物学的代理者铺平道路"
     },
     {
       "id": "055edac304b91ad4c018",
@@ -8231,7 +8668,8 @@
         "Agent",
         "RAG"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "用双子企业代理平台的代理RAG解锁可靠的响应"
     },
     {
       "id": "a6e9531697eed5e301ab",
@@ -8243,7 +8681,8 @@
       "group": "research",
       "published": "2026-06-05T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "让Claude成为化学家"
     },
     {
       "id": "7c0049bb0f6999e67b05",
@@ -8255,7 +8694,8 @@
       "group": "research",
       "published": "2026-06-04T19:47:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过智能手机摄像机进行被动心脏健康监测"
     },
     {
       "id": "09a268595595d9b3f0a8",
@@ -8267,7 +8707,8 @@
       "group": "research",
       "published": "2026-06-03T18:37:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "洪灾抗洪能力下的一章:公开来源谷歌的水文框架"
     },
     {
       "id": "21e96d4f9b19988eb59b",
@@ -8281,7 +8722,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "映射人工智能网络威胁:来自LLM ATT&CK导航的透视"
     },
     {
       "id": "b531a6249412cc4f4209",
@@ -8293,7 +8735,8 @@
       "group": "research",
       "published": "2026-06-03T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "我们所学到的 一年价值的人工智能网络威胁"
     },
     {
       "id": "6ada66c07ee9791383b2",
@@ -8305,7 +8748,8 @@
       "group": "research",
       "published": "2026-05-28T20:58:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "A New Era of Discovery: Google Research at I/O 2026 互联网档案馆的存檔,存档日期2013-03-02. A New Era of Discovery: Google Research at I/O 2026"
     },
     {
       "id": "0dfdbd267669e1ea16e4",
@@ -8317,7 +8761,8 @@
       "group": "research",
       "published": "2026-05-27T16:56:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过零信任汇总进行私人分析"
     },
     {
       "id": "efe2b5110c7bf124752b",
@@ -8331,7 +8776,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "社会科学中的编码智能体"
     },
     {
       "id": "e4bdeb479512926e1731",
@@ -8346,7 +8792,7 @@
         "Agent"
       ],
       "origin": "third-party",
-      "title_zh": "我们如何包容克劳德 跨产品"
+      "title_zh": "我们如何包容Claude 跨产品"
     },
     {
       "id": "0fc33b995b409bd33312",
@@ -8360,7 +8806,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "衡量LLMs开发利用的能力"
     },
     {
       "id": "9d44573c198f670ad553",
@@ -8372,7 +8819,8 @@
       "group": "research",
       "published": "2026-05-22T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "玻璃翼项目:初步更新"
     },
     {
       "id": "03e0e0ace490669fba85",
@@ -8384,7 +8832,8 @@
       "group": "research",
       "published": "2026-05-21T19:46:42Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "我们将在亚太推出Google DeepMind加速器计划,"
     },
     {
       "id": "8b57c9e5cb1ceef242b0",
@@ -8396,7 +8845,8 @@
       "group": "research",
       "published": "2026-05-19T17:52:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "经验研究援助:从自然出版物到催化计算发现"
     },
     {
       "id": "f5a5b06be6d958fc5365",
@@ -8408,7 +8858,8 @@
       "group": "research",
       "published": "2026-05-18T18:21:39Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "快速遗传导致细胞老化"
     },
     {
       "id": "31fa40f0efa4b71629cd",
@@ -8420,7 +8871,8 @@
       "group": "research",
       "published": "2026-05-17T19:53:18Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "以 Genie 和 Street View 工程模拟真实世界的地方"
     },
     {
       "id": "3381a474afe6dd0c98d7",
@@ -8432,7 +8884,8 @@
       "group": "research",
       "published": "2026-05-17T19:50:57Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "介绍Gemini奥姆尼"
     },
     {
       "id": "ca0e62e19a60029074da",
@@ -8444,7 +8897,8 @@
       "group": "research",
       "published": "2026-05-17T19:43:45Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入谷歌反重力2.0"
     },
     {
       "id": "dc7439051cc248a6dc49",
@@ -8456,7 +8910,8 @@
       "group": "research",
       "published": "2026-05-17T13:50:34Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gemini科学:发现新时代的AI实验和工具"
     },
     {
       "id": "7c756297345c2d26e411",
@@ -8468,7 +8923,8 @@
       "group": "research",
       "published": "2026-05-17T13:43:50Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "便于理解内容是如何创建和编辑的"
     },
     {
       "id": "bc2f663b5543662689a2",
@@ -8480,7 +8936,8 @@
       "group": "research",
       "published": "2026-05-16T09:13:34Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "加强新加坡的AI未来:新的国家伙伴关系"
     },
     {
       "id": "c28761bd296716ea5420",
@@ -8492,7 +8949,8 @@
       "group": "research",
       "published": "2026-05-16T08:16:06Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "寻找新传染病背后的分子开关"
     },
     {
       "id": "4bb07558bb37c94285fe",
@@ -8504,7 +8962,8 @@
       "group": "research",
       "published": "2026-05-16T08:08:44Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "开辟老龄化研究的新途径"
     },
     {
       "id": "f5132994aca5b4945491",
@@ -8516,7 +8975,8 @@
       "group": "research",
       "published": "2026-05-16T08:00:15Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "加快发现肝病机制."
     },
     {
       "id": "6ce8ca3ce4aab7a55d55",
@@ -8528,7 +8988,8 @@
       "group": "research",
       "published": "2026-05-16T07:53:11Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "统一生物工具包,以采用新的ALS方法"
     },
     {
       "id": "7807ac29869253ae5e01",
@@ -8540,7 +9001,8 @@
       "group": "research",
       "published": "2026-05-16T07:40:27Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "无法覆盖用于防治肝纤维化的药物"
     },
     {
       "id": "1c8f3fa51238191add91",
@@ -8552,7 +9014,8 @@
       "group": "research",
       "published": "2026-05-16T03:14:17Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "WeatherNext如何帮助国家飓风中心更好地预测飓风梅丽莎在牙买加的历史性登陆情况."
     },
     {
       "id": "f53f7bc596980a1cc4c2",
@@ -8566,7 +9029,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gemini3.5:有行动的边境情报"
     },
     {
       "id": "0dd9fed146f74a8de816",
@@ -8578,7 +9042,8 @@
       "group": "research",
       "published": "2026-05-14T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "2028年:全球AI领导权的两种设想."
     },
     {
       "id": "ff20f1578f69c29a68dd",
@@ -8592,7 +9057,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "联合科学家:加速研究的多代理AI合作伙伴"
     },
     {
       "id": "b86216cf8bfbd2b74add",
@@ -8604,7 +9070,8 @@
       "group": "research",
       "published": "2026-05-08T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "教Claude为什么"
     },
     {
       "id": "04eef9e16814da8ae09c",
@@ -8618,7 +9085,8 @@
       "tags": [
         "模型训练"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "捐赠我们的开源对齐工具"
     },
     {
       "id": "2bbe148f9157c8493acc",
@@ -8630,7 +9098,8 @@
       "group": "research",
       "published": "2026-05-07T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "自然语言自动编码器:将Claude的想法变成文字"
     },
     {
       "id": "24545504aa1ee92f0e49",
@@ -8642,7 +9111,8 @@
       "group": "research",
       "published": "2026-05-07T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "人类研究所的重点领域"
     },
     {
       "id": "99b1170ac1453321ac6f",
@@ -8656,7 +9126,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AlphaEvolve: 我们的双子功率编码代理如何在各个领域扩大影响"
     },
     {
       "id": "165615647e259697e6ee",
@@ -8668,7 +9139,8 @@
       "group": "research",
       "published": "2026-05-01T16:37:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过全球伙伴关系和开放资源促进科学影响"
     },
     {
       "id": "55a6a125da398cda38ae",
@@ -8680,7 +9152,8 @@
       "group": "research",
       "published": "2026-04-30T12:14:15Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "与AI联合临床医生建立新的保健模式"
     },
     {
       "id": "3e464efbb0b4dffd8b6f",
@@ -8692,7 +9165,8 @@
       "group": "research",
       "published": "2026-04-30T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "人们如何向Claude要求个人指导"
     },
     {
       "id": "d0d886c9dcdc701f1277",
@@ -8704,7 +9178,8 @@
       "group": "research",
       "published": "2026-04-29T21:07:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Google研究科学家利用经验研究援助的四种方法"
     },
     {
       "id": "6c5ade233b3666fde04b",
@@ -8716,7 +9191,8 @@
       "group": "research",
       "published": "2026-04-29T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "评估Claude的生物信息学研究能力"
     },
     {
       "id": "6dae1ac749b9f887ec22",
@@ -8728,7 +9204,8 @@
       "group": "research",
       "published": "2026-04-27T07:00:06Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "宣布我们与大韩民国的伙伴关系"
     },
     {
       "id": "0817f4ca347754c5703b",
@@ -8741,7 +9218,7 @@
       "published": "2026-04-23T00:00:00Z",
       "tags": [],
       "origin": "third-party",
-      "title_zh": "最近克劳德守则质量报告的最新情况"
+      "title_zh": "最近Claude守则质量报告的最新情况"
     },
     {
       "id": "23ef0dd88f7b0edb6309",
@@ -8753,7 +9230,8 @@
       "group": "research",
       "published": "2026-04-22T17:00:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "这是所有的角度: 你的照片,重新组合"
     },
     {
       "id": "a9b507c37a919260f97a",
@@ -8765,7 +9243,8 @@
       "group": "research",
       "published": "2026-04-22T10:20:03Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "脱钩的DiLoCo:恢复能力的新前沿,分发人工智能培训"
     },
     {
       "id": "25420b1cbb81642e2c59",
@@ -8777,7 +9256,8 @@
       "group": "research",
       "published": "2026-04-22T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "公布雅典经济指数调查"
     },
     {
       "id": "f1a4cfc83ebc31da0e54",
@@ -8789,7 +9269,8 @@
       "group": "research",
       "published": "2026-04-22T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "81,000人告诉我们的AI经济学"
     },
     {
       "id": "15e0d38d97945d4e5842",
@@ -8803,7 +9284,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "理由说明 银行:使智能体能够学习经验"
     },
     {
       "id": "58a08541d57d0a1848e3",
@@ -8815,7 +9297,8 @@
       "group": "research",
       "published": "2026-04-21T14:54:15Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "与行业领袖合作,加快AI转型."
     },
     {
       "id": "ccc8f73fce7537a11220",
@@ -8829,7 +9312,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "为现实世界设计合成数据集:机制设计和从第一原理推理"
     },
     {
       "id": "7ca3e9094e7612830206",
@@ -8841,7 +9325,8 @@
       "group": "research",
       "published": "2026-04-16T12:18:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AI生成的合成神经元加速脑映射"
     },
     {
       "id": "099f9582ba24fbd2c8cf",
@@ -8853,7 +9338,8 @@
       "group": "research",
       "published": "2026-04-15T16:03:19Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gemini3.1 Flash TTS:下一代表达式AI演讲"
     },
     {
       "id": "98ad0ce59b1168158baa",
@@ -8868,7 +9354,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "自动化调整研究人员:使用大型语言模型扩大可扩展监督"
     },
     {
       "id": "321d179ca5268e53a612",
@@ -8880,7 +9367,8 @@
       "group": "research",
       "published": "2026-04-13T18:15:59Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "利用基因AI发展未来技能"
     },
     {
       "id": "281297e7c5b7ddafdcbc",
@@ -8895,7 +9383,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "双子机器人-ER 1.6:通过强化的内含推理为现实世界机器人任务提供动力"
     },
     {
       "id": "0b3b78bf445dcb687312",
@@ -8907,7 +9396,8 @@
       "group": "research",
       "published": "2026-04-09T11:22:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "ConvApparel:测量和弥合用户模拟器中的现实主义差距"
     },
     {
       "id": "ceee0da278a4d968792b",
@@ -8921,7 +9411,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "在实践中值得信赖的智能体"
     },
     {
       "id": "5f4680a3963bb09e6eb9",
@@ -8935,7 +9426,8 @@
       "tags": [
         "Agent"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "改进学术工作流程:引入两个人工智能智能体,以获得更好的数字和同行评审"
     },
     {
       "id": "a76463269fe24214350f",
@@ -8950,7 +9442,7 @@
         "Agent"
       ],
       "origin": "third-party",
-      "title_zh": "放大管理代理人:将大脑与双手脱钩"
+      "title_zh": "放大管理智能体:将大脑与双手脱钩"
     },
     {
       "id": "95b7e4c31688fac7ba9a",
@@ -8962,7 +9454,8 @@
       "group": "research",
       "published": "2026-04-07T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "评估Claude·神话预览的网络安全能力"
     },
     {
       "id": "d420929810345f2cab9c",
@@ -8977,7 +9470,8 @@
         "LLM",
         "模型训练"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "评价LLMS中行为处置的一致性"
     },
     {
       "id": "73ad88bbe15b4741a8bb",
@@ -8992,7 +9486,8 @@
         "Agent",
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gemma 4: 字节的字节, 最能打开的模型"
     },
     {
       "id": "2f22c4fbcfb394f6f2e3",
@@ -9006,7 +9501,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "情感概念及其在大语言模型中的功能"
     },
     {
       "id": "42a406893f876570d945",
@@ -9018,7 +9514,8 @@
       "group": "research",
       "published": "2026-03-31T16:16:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "建立更好的AI基准: 有多少评分是足够的?"
     },
     {
       "id": "100ec259db6203fe56f9",
@@ -9030,7 +9527,8 @@
       "group": "research",
       "published": "2026-03-31T02:03:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过负责任地披露量子脆弱性来保护加密货币"
     },
     {
       "id": "8bdd4935b0b1e150167d",
@@ -9042,7 +9540,8 @@
       "group": "research",
       "published": "2026-03-31T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "澳大利亚如何使用Claude:来自雅典经济指数的结论"
     },
     {
       "id": "4747a5a762159b7ae0a1",
@@ -9056,7 +9555,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "重构AI时代鼠标指针"
     },
     {
       "id": "cd69125d9969d45dc79a",
@@ -9068,7 +9568,8 @@
       "group": "research",
       "published": "2026-03-26T15:23:35Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Gemini 3.1 Flash Live:让音频AI更自然可靠"
     },
     {
       "id": "6b7e6317e9307804262f",
@@ -9080,7 +9581,8 @@
       "group": "research",
       "published": "2026-03-25T16:46:20Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "保护人民免受有害的操纵"
     },
     {
       "id": "6eec7c7553b919c2adf1",
@@ -9092,7 +9594,8 @@
       "group": "research",
       "published": "2026-03-25T16:01:39Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Lyria 3 Pro: 创建更多更长的音轨"
     },
     {
       "id": "67a41177a9ef764cb885",
@@ -9104,7 +9607,8 @@
       "group": "research",
       "published": "2026-03-25T09:14:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Vibe Coding XR:加速AI + XR 原型与 XR 块和Gemini"
     },
     {
       "id": "aeba4a5ac745f0d1771c",
@@ -9129,7 +9633,8 @@
       "group": "research",
       "published": "2026-03-24T19:54:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "TurboQuant:以极端压缩的方式重新定义AI的效率"
     },
     {
       "id": "c1d984662c886a66ebce",
@@ -9141,7 +9646,8 @@
       "group": "research",
       "published": "2026-03-24T17:42:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "绘制现代世界图:S2Vec如何学习我们城市的语言"
     },
     {
       "id": "9674175d11a5e1500e26",
@@ -9168,7 +9674,8 @@
       "group": "research",
       "published": "2026-03-24T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "雅典经济指数报告:学习曲线"
     },
     {
       "id": "a88ccd9cde45b630e326",
@@ -9180,7 +9687,8 @@
       "group": "research",
       "published": "2026-03-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "维贝物理学:AI研究生"
     },
     {
       "id": "20a930aebfd2490c754f",
@@ -9192,7 +9700,8 @@
       "group": "research",
       "published": "2026-03-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "科学计算长期运行的Claude"
     },
     {
       "id": "77bcdf2c55ab0fc29b5b",
@@ -9204,7 +9713,8 @@
       "group": "research",
       "published": "2026-03-23T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "介绍科学博客"
     },
     {
       "id": "b5ebbee471f576e2744f",
@@ -9216,7 +9726,8 @@
       "group": "research",
       "published": "2026-03-17T19:47:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "Google Research at The Check Up:从保健创新到现实世界护理环境"
     },
     {
       "id": "d824d361772f6d3acb83",
@@ -9228,7 +9739,8 @@
       "group": "research",
       "published": "2026-03-17T16:57:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "通过机器学习改进乳腺癌筛查工作流程"
     },
     {
       "id": "675a5ba353704bb0a6c3",
@@ -9240,7 +9752,8 @@
       "group": "research",
       "published": "2026-03-17T16:03:47Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "AGI:认知框架"
     },
     {
       "id": "ce7dc309303c507a06b2",
@@ -9254,7 +9767,8 @@
       "tags": [
         "LLM"
       ],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "关于超导性研究问题的LLMs测试"
     },
     {
       "id": "21425385112b9ed6a50d",
@@ -9266,7 +9780,8 @@
       "group": "research",
       "published": "2026-03-13T00:00:00Z",
       "tags": [],
-      "origin": "third-party"
+      "origin": "third-party",
+      "title_zh": "AI的“diff”工具:发现新模型中的行为差异"
     },
     {
       "id": "dc6038483727be59f79b",
@@ -9278,7 +9793,8 @@
       "group": "research",
       "published": "2026-03-12T13:03:15Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "利用AI驱动的山洪预报保护城市"
     },
     {
       "id": "051065bd361190782f1e",
@@ -9290,7 +9806,8 @@
       "group": "research",
       "published": "2026-03-12T10:42:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "引入地源:将新闻报道与Gemini数据化"
     },
     {
       "id": "f7bb80dd690d59366cae",
@@ -9302,7 +9819,8 @@
       "group": "research",
       "published": "2026-03-11T16:58:00Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "探索现实世界临床研究中对话诊断AI的可行性."
     },
     {
       "id": "cbf4861d9bf25ca8d1e9",
@@ -9314,7 +9832,8 @@
       "group": "research",
       "published": "2026-03-09T13:52:36Z",
       "tags": [],
-      "origin": "official"
+      "origin": "official",
+      "title_zh": "从游戏到生物及以后:AlphaGo十年的影响"
     }
   ],
   "sources_status": [
