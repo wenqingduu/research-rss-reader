@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="信源：专注 Agent、RAG、LLM 与多模态的 AI 论文和企业研究资讯。">
+  <title>信源 · AI 阅读器</title>
+  <style>
+    :root { color-scheme: light; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; color:#222; background:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; }
+    button,input { font:inherit; }
+    header { border-bottom:1px solid #e9e9e9; background:#fff; }
+    .wrap { max-width:800px; margin:0 auto; padding-left:22px; padding-right:22px; }
+    .header-inner { display:flex; align-items:center; justify-content:space-between; gap:18px; min-height:74px; }
+    .brand { font-weight:650; font-size:20px; text-decoration:none; color:#222; flex-shrink:0; }
+    nav { display:flex; align-items:center; gap:22px; }
+    nav button { background:none; border:0; padding:10px 0; cursor:pointer; color:#777; border-bottom:2px solid transparent; white-space:nowrap; font-size:14px; }
+    nav button[aria-selected="true"] { color:#222; border-bottom-color:#222; }
+    main { padding-top:36px; padding-bottom:60px; }
+    .eyebrow { font-size:12px; color:#888; letter-spacing:.1em; margin:0 0 8px; }
+    h1 { font-size:29px; letter-spacing:-.025em; margin:0 0 8px; font-weight:670; }
+    .description { font-size:14px; color:#777; line-height:1.7; margin:0; }
+    .toolbar { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-top:30px; margin-bottom:14px; }
+    .search { flex:1 1 260px; min-width:145px; height:38px; border:1px solid #dedede; border-radius:6px; padding:0 12px; outline:none; color:#333; background:#fff; }
+    .search:focus { border-color:#888; }
+    .subtle-button { border:1px solid #ddd; background:white; border-radius:6px; color:#555; padding:8px 12px; height:38px; cursor:pointer; }
+    .subtle-button:hover { border-color:#999; }
+    .topics { display:flex; align-items:center; flex-wrap:wrap; gap:8px; padding-bottom:19px; border-bottom:1px solid #dedede; }
+    .topic { border:1px solid #e4e4e4; background:#fff; color:#666; border-radius:5px; font-size:12px; line-height:1.5; padding:5px 9px; cursor:pointer; }
+    .topic[aria-pressed="true"] { border-color:#555; color:#222; background:#f6f6f6; }
+    .result-meta { display:flex; justify-content:space-between; gap:12px; padding:18px 0 7px; color:#888; font-size:12px; }
+    .article { padding:20px 0 21px; border-bottom:1px solid #ededed; }
+    .article-meta { display:flex; align-items:center; flex-wrap:wrap; gap:9px; font-size:12px; color:#888; }
+    .source { color:#506779; font-weight:600; }
+    .article h2 { font-weight:640; font-size:17px; line-height:1.52; margin:9px 0 9px; overflow-wrap:anywhere; }
+    .article h2 a { color:#202020; text-decoration:none; }
+    .article h2 a:hover { text-decoration:underline; }
+    .excerpt { font-size:13px; color:#666; line-height:1.72; margin:0; }
+    .article-actions { display:flex; align-items:center; flex-wrap:wrap; gap:17px; margin-top:11px; }
+    .article-actions a, .article-actions button { border:0; background:none; color:#5b6e7a; font-size:13px; padding:2px 0; cursor:pointer; text-decoration:none; }
+    .article-actions a:hover, .article-actions button:hover { text-decoration:underline; color:#222; }
+    .abstract { margin-top:15px; padding:0; color:#555; font-size:14px; line-height:1.83; white-space:pre-line; overflow-wrap:anywhere; }
+    .tag { display:inline-block; border-radius:3px; background:#f1f3f4; color:#666; font-size:11px; padding:3px 6px; }
+    .notice { font-size:14px; color:#777; line-height:1.9; padding:25px 0; }
+    .notice a { color:#486b87; }
+    .more { display:block; margin:24px auto 0; background:white; color:#444; border:1px solid #ddd; border-radius:6px; padding:9px 21px; cursor:pointer; }
+    .more:hover { border-color:#999; }
+    .foot { padding:26px 0 0; font-size:12px; line-height:1.8; color:#949494; }
+    [hidden] { display:none!important; }
+    @media(max-width:520px) { .header-inner { flex-wrap:wrap; gap:0; padding-top:12px; } nav { width:100%; justify-content:flex-start; gap:18px; } .brand { font-size:19px; } main { padding-top:25px; } h1 { font-size:26px; } .toolbar { margin-top:23px; gap:8px; } .article { padding-top:17px; } }
+  </style>
+</head>
+<body>
+  <header><div class="wrap header-inner">
+    <a class="brand" href="./">信源</a>
+    <nav aria-label="文章分类" id="nav">
+      <button type="button" data-group="all" aria-selected="true">全部</button>
+      <button type="button" data-group="papers" aria-selected="false">AI 论文</button>
+      <button type="button" data-group="research" aria-selected="false">企业研究</button>
+      <button type="button" data-group="news" aria-selected="false">资讯</button>
+    </nav>
+  </div></header>
+  <main class="wrap">
+    <p class="eyebrow">AI READING DESK</p>
+    <h1>AI 研究速览</h1>
+    <p class="description">Agent · RAG · LLM · 多模态 · 视频生成</p>
+    <div class="toolbar">
+      <input class="search" id="search" type="search" placeholder="搜索标题、摘要、来源" aria-label="搜索文章">
+      <button class="subtle-button" id="reload" type="button">刷新</button>
+    </div>
+    <div class="topics" id="topics" aria-label="主题筛选">
+      <button class="topic" data-topic="all" aria-pressed="true">全部主题</button>
+      <button class="topic" data-topic="Agent" aria-pressed="false">Agent</button>
+      <button class="topic" data-topic="RAG" aria-pressed="false">RAG</button>
+      <button class="topic" data-topic="LLM" aria-pressed="false">LLM</button>
+      <button class="topic" data-topic="多模态" aria-pressed="false">多模态</button>
+      <button class="topic" data-topic="视频生成" aria-pressed="false">视频生成</button>
+      <button class="topic" data-topic="模型训练" aria-pressed="false">模型训练</button>
+    </div>
+    <div class="result-meta"><span id="count">读取中…</span><span id="updated"></span></div>
+    <div id="articles" role="feed" aria-label="AI 研究文章"></div>
+    <button class="more" id="more" type="button" hidden>显示更多</button>
+    <footer class="foot">英文标题与摘要来自原始来源 · 点击标题阅读原文 · 站点定期更新，发布时间以来源为准</footer>
+  </main>
+  <script>
+    (()=>{
+      'use strict';
+      const $ = id=>document.getElementById(id);
+      let all=[], group='all', topic='all', visible=25, updated='';
+      const safeUrl = x=>{try{const u=new URL(x);return (u.protocol==='https:'||u.protocol==='http:')?u.href:'';}catch{return ''}};
+      const formatDate = date=>{const d=new Date(date);if(Number.isNaN(d.getTime()))return '日期未知';return new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'numeric',day:'numeric'}).format(d)};
+      const el = (tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x;};
+      function showArticle(a){
+        const article=el('article','article');article.setAttribute('aria-label',a.title||'文章');
+        const meta=el('div','article-meta');meta.append(el('span','source',a.source||'来源未知'),el('span','',formatDate(a.published)));
+        for(const t of (a.tags||[]).slice(0,2))meta.append(el('span','tag',t));
+        const h=el('h2');const titleLink=el('a','',a.title||'无标题');titleLink.href=safeUrl(a.url)||'#';titleLink.target='_blank';titleLink.rel='noopener noreferrer';h.append(titleLink);
+        const actions=el('div','article-actions');
+        const btn=el('button','', '展开摘要');btn.type='button';btn.setAttribute('aria-expanded','false');
+        const abstract=el('div','abstract',a.summary||'当前来源未提供摘要');abstract.hidden=true;
+        btn.onclick=()=>{abstract.hidden=!abstract.hidden;btn.textContent=abstract.hidden?'展开摘要':'收起摘要';btn.setAttribute('aria-expanded',String(!abstract.hidden));};
+        actions.append(btn);
+        const pdf=safeUrl(a.pdf||'');if(pdf){const link=el('a','','PDF');link.href=pdf;link.target='_blank';link.rel='noopener noreferrer';actions.append(link);}
+        if(a.origin==='third-party')actions.append(el('span','', '第三方 RSS'));
+        article.append(meta,h,actions,abstract);return article;
+      }
+      function filtered(){const q=$('search').value.trim().toLowerCase();return all.filter(a=>{
+        if(group!=='all'&&a.group!==group)return false;
+        if(topic!=='all'&&!(a.tags||[]).includes(topic))return false;
+        if(!q)return true;
+        return [a.title,a.summary,a.source,(a.tags||[]).join(' ')].join(' ').toLowerCase().includes(q);
+      });}
+      function render(){const rows=filtered(), target=$('articles');target.replaceChildren();
+        $('count').textContent=rows.length+' 篇文章';
+        const subset=rows.slice(0,visible);if(subset.length)target.append(...subset.map(showArticle));
+        else {const notice=el('div','notice',all.length?'没有符合筛选条件的文章。':'暂时没有文章。首次使用时请在 GitHub Actions 中运行「更新并发布」，系统将自动抓取免费来源。');target.append(notice);}
+        $('more').hidden=visible>=rows.length;
+      }
+      async function load(){
+        $('count').textContent='正在读取…';
+        try{
+          const res=await fetch('./data/articles.json?v='+Date.now(),{cache:'no-store'});
+          if(!res.ok)throw Error('HTTP '+res.status);
+          const d=await res.json();if(!d||!Array.isArray(d.articles))throw Error('数据格式错误');
+          all=d.articles.filter(a=>a&&a.url&&a.title&&a.group).sort((a,b)=>(b.published||'').localeCompare(a.published||''));
+          updated=d.updated_at||'';
+          $('updated').textContent=updated?'更新 '+new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).format(new Date(updated)):'尚未抓取';
+          visible=25;render();
+        }catch(err){all=[];$('articles').replaceChildren(el('div','notice','暂时无法读取文章列表，请刷新后重试。'));$('count').textContent='读取失败';}
+      }
+      $('nav').addEventListener('click',e=>{const b=e.target.closest('button[data-group]');if(!b)return;group=b.dataset.group;visible=25;
+        for(const x of $('nav').querySelectorAll('button'))x.setAttribute('aria-selected',String(x===b));render();});
+      $('topics').addEventListener('click',e=>{const b=e.target.closest('button[data-topic]');if(!b)return;topic=b.dataset.topic;visible=25;
+        for(const x of $('topics').querySelectorAll('button'))x.setAttribute('aria-pressed',String(x===b));render();});
+      $('search').addEventListener('input',()=>{visible=25;render();});
+      $('reload').addEventListener('click',load);
+      $('more').addEventListener('click',()=>{visible+=25;render();});
+      load();
+    })();
+  </script>
+</body>
+</html>
