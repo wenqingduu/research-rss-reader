@@ -84,12 +84,17 @@
 
     .header-inner{justify-content:flex-start}
     .source-list{gap:1px}
+    .favorite-filter{margin-bottom:20px}
+    .favorite-filter[aria-pressed="true"]{color:#222;background:#f2f4f5;font-weight:650}
+    .favorite-action[aria-pressed="true"]{color:#ad7932;font-weight:600}
     .source-button{line-height:1.45}
     .title-zh{font-size:14px;color:#777;line-height:1.65;margin:0 0 9px;overflow-wrap:anywhere}
     .article h2{margin-bottom:5px}
     .other-sources{display:none}
     @media(max-width:700px){
       .source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;gap:4px}
+      .favorite-filter{margin-bottom:12px;padding-left:5px}
+      .sources-title{display:block;margin:3px 0 8px}
       .source-button{width:100%;min-width:0;padding:7px 5px}
       .source-button span{overflow:hidden;text-overflow:ellipsis}
       .source-button small{flex-shrink:0}
@@ -103,7 +108,9 @@
   </div></header>
   <main class="wrap layout">
     <aside class="sidebar" aria-label="文章来源">
-      <div class="sidebar-label">文章来源</div>
+      <div class="sidebar-label">阅读列表</div>
+      <button type="button" id="favoritesFilter" class="source-button favorite-filter" aria-pressed="false"><span>★ 我的收藏</span><small id="favoritesCount">0</small></button>
+      <div class="sidebar-label sources-title">文章来源</div>
       <div id="sources" class="source-list"></div>
     </aside>
     <section class="article-content">
@@ -130,7 +137,37 @@
     (()=>{
       'use strict';
       const $ = id=>document.getElementById(id);
-      let all=[], source='all', topic='all', visible=25, updated='';
+      let all=[], source='all', topic='all', visible=25, updated='', onlyFavorites=false;
+      const FAV_KEY='research-news-favorites-v1';
+      function readFavorites(){
+        try{
+          const saved=JSON.parse(localStorage.getItem(FAV_KEY)||'{}');
+          return saved&&typeof saved==='object'&&!Array.isArray(saved)?Object.assign(Object.create(null),saved):Object.create(null);
+        }catch{return Object.create(null);}
+      }
+      const favorites=readFavorites();
+      const favId=a=>String(a.id||a.url||'');
+      const isFavorite=a=>Object.prototype.hasOwnProperty.call(favorites,favId(a));
+      function toggleFavorite(a){
+        const key=favId(a);if(!key)return false;
+        const previous=favorites[key];
+        if(isFavorite(a))delete favorites[key];
+        else{
+          // Keep a snapshot so bookmarks remain visible after RSS drops old articles.
+          const snapshot={};
+          for(const k of ['id','url','title','title_zh','summary','pdf','source','group','published','tags','origin']){
+            if(a[k]!==undefined)snapshot[k]=a[k];
+          }
+          favorites[key]=snapshot;
+        }
+        try{localStorage.setItem(FAV_KEY,JSON.stringify(favorites));return true;}
+        catch(e){
+          if(previous!==undefined)favorites[key]=previous;
+          else delete favorites[key];
+          alert('收藏未能保存，请检查浏览器是否允许保存本地数据。');
+          return false;
+        }
+      }
       const safeUrl = x=>{try{const u=new URL(x);return (u.protocol==='https:'||u.protocol==='http:')?u.href:'';}catch{return ''}};
       const formatDate = date=>{const d=new Date(date);if(Number.isNaN(d.getTime()))return '日期未知';return new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'numeric',day:'numeric'}).format(d)};
       const el = (tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x;};
@@ -146,11 +183,26 @@
         const abstract=el('div','abstract',a.summary||'当前来源未提供摘要');abstract.hidden=true;
         btn.onclick=()=>{abstract.hidden=!abstract.hidden;btn.textContent=abstract.hidden?'展开摘要':'收起摘要';btn.setAttribute('aria-expanded',String(!abstract.hidden));};
         actions.append(btn);
+        const fav=el('button','favorite-action',isFavorite(a)?'★ 已收藏':'☆ 收藏');
+        fav.type='button';fav.setAttribute('aria-pressed',String(isFavorite(a)));
+        fav.setAttribute('aria-label',isFavorite(a)?'取消收藏':'收藏文章');
+        fav.addEventListener('click',()=>{
+          if(!toggleFavorite(a))return;
+          const chosen=isFavorite(a);
+          fav.textContent=chosen?'★ 已收藏':'☆ 收藏';
+          fav.setAttribute('aria-pressed',String(chosen));
+          fav.setAttribute('aria-label',chosen?'取消收藏':'收藏文章');
+          renderSources();
+          if(onlyFavorites)render();
+        });
+        actions.append(fav);
         const pdf=safeUrl(a.pdf||'');if(pdf){const link=el('a','','PDF');link.href=pdf;link.target='_blank';link.rel='noopener noreferrer';actions.append(link);}
         if(a.origin==='third-party')actions.append(el('span','', '第三方 RSS'));
         article.append(meta,h);if(zhTitle)article.append(zhTitle);article.append(actions,abstract);return article;
       }
       function renderSources(){
+        $('favoritesCount').textContent=String(Object.keys(favorites).length);
+        $('favoritesFilter').setAttribute('aria-pressed',String(onlyFavorites));
         const counts=new Map();
         for(const a of all)counts.set(a.source,(counts.get(a.source)||0)+1);
         const primary=['Anthropic Research','Anthropic Engineering','Claude Blog','OpenAI News'];
@@ -159,20 +211,27 @@
         const target=$('sources');target.replaceChildren();
         for(const name of names){
           const b=el('button','source-button');b.type='button';b.dataset.source=name;
-          b.setAttribute('aria-pressed',String(source===name));
+          b.setAttribute('aria-pressed',String(!onlyFavorites&&source===name));
           b.append(el('span','',name==='all'?'全部来源':name),
                    el('small','',String(name==='all'?all.length:(counts.get(name)||0))));
           target.append(b);
         }
       }
-      function filtered(){return all.filter(a=>
-        (source==='all'||a.source===source)
-        &&(topic==='all'||(a.tags||[]).includes(topic)));
+      function filtered(){
+        const liveById=new Map(all.map(a=>[favId(a),a]));
+        const data=onlyFavorites?
+          Object.values(favorites).filter(a=>a&&a.title&&a.url)
+            .map(a=>liveById.get(favId(a))||a)
+            .sort((a,b)=>(b.published||'').localeCompare(a.published||'')):
+          all;
+        return data.filter(a=>(onlyFavorites||source==='all'||a.source===source)
+          &&(topic==='all'||(a.tags||[]).includes(topic)));
       }
       function render(){const rows=filtered(), target=$('articles');target.replaceChildren();
-        $('count').textContent=rows.length+' 篇文章';
+        $('count').textContent=rows.length+(onlyFavorites?' 篇收藏':' 篇文章');
         const subset=rows.slice(0,visible);if(subset.length)target.append(...subset.map(showArticle));
-        else {const notice=el('div','notice',all.length?'没有符合筛选条件的文章。':'暂时没有文章。首次使用时请在 GitHub Actions 中运行「更新并发布」，系统将自动抓取免费来源。');target.append(notice);}
+        else {const message=onlyFavorites?'还没有收藏的文章。点击文章下方的「☆ 收藏」即可保存。':all.length?'没有符合筛选条件的文章。':'暂时没有文章。';
+          target.append(el('div','notice',message));}
         $('more').hidden=visible>=rows.length;
       }
       async function load(){
@@ -189,9 +248,15 @@
       }
       $('topics').addEventListener('click',e=>{const b=e.target.closest('button[data-topic]');if(!b)return;topic=b.dataset.topic;visible=25;
         for(const x of $('topics').querySelectorAll('button'))x.setAttribute('aria-pressed',String(x===b));render();});
+      $('favoritesFilter').addEventListener('click',()=>{
+        onlyFavorites=!onlyFavorites;source='all';topic='all';visible=25;
+        for(const x of $('topics').querySelectorAll('button[data-topic]'))
+          x.setAttribute('aria-pressed',String(x.dataset.topic==='all'));
+        renderSources();render();
+      });
       $('sources').addEventListener('click',e=>{
         const b=e.target.closest('button[data-source]');if(!b)return;
-        source=b.dataset.source;topic='all';visible=25;
+        onlyFavorites=false;source=b.dataset.source;topic='all';visible=25;
         for(const x of $('topics').querySelectorAll('button[data-topic]'))
           x.setAttribute('aria-pressed',String(x.dataset.topic==='all'));
         renderSources();render();
