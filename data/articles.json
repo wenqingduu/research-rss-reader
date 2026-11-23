@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-11-23T07:39:36.311204Z",
+  "updated_at": "2026-11-23T20:15:57.966442Z",
   "articles": [
+    {
+      "id": "990f58ceeb055fd185ae",
+      "title": "Supercharging transformer residual connections",
+      "summary": "Algorithms & Theory",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "pdf": "",
+      "source": "Google Research",
+      "group": "research",
+      "published": "2026-11-23T17:21:12Z",
+      "tags": [
+        "LLM"
+      ],
+      "origin": "official",
+      "title_zh": "超充电变压器剩余连接"
+    },
+    {
+      "id": "3ffa5c39e01e3431aafb",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "pdf": "",
+      "source": "Google DeepMind",
+      "group": "research",
+      "published": "2026-11-23T16:59:40Z",
+      "tags": [
+        "Agent"
+      ],
+      "origin": "official",
+      "title_zh": "找到更快的量子算法与代理和正式验证"
+    },
     {
       "id": "615f5bd6a724c327fa31",
       "title": "Grid Cells as Spectral Successor Features: A Reusable Basis for Continual Reinforcement Learning",
@@ -944,22 +974,6 @@
       ],
       "origin": "official",
       "title_zh": "什么帮助语言模式智能体审查暴力视频? 与人类证据参考对照"
-    },
-    {
-      "id": "e0329f2020f2d2c3397f",
-      "title": "Search From the Start: Search-Native Pretraining for Language Models",
-      "summary": "arXiv:2611.26809v1 Announce Type: cross Abstract: Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on predicting static text, with search capabilities typically introduced during post-training. We propose Search-Native Pretraining as a practical route to teach search capability during pretraining from ordinary text corpora. Specifically, we augment pretraining corpus at scale with web-search queries and retrieve web response using a local index. Training on this augmented corpus teaches models to generate search calls and incorporate retrieved evidence during language modeling. Across Wikipedia and DCLM-Edu corpora and 360M to 3.3B parameter scales, search-pretrained models (\"QueryLM\") show improved performance on knowledge-intensive tasks and higher steerability toward the retrieved evidence. Crucially, their advantage persists after supervised fine-tuning of both search-pretrained and conventionally pretrained models, indicating that the tested post-training procedures do not fully recover the capabilities developed during pretraining. Throughout our experiments, we find that a 1.4B QueryLM consistently beats or matches the performance of a FLOP-matched 3.3B baseline model across all knowledge intensive tasks. These results establish search-pretraining as a practical way to develop foundational search capabilities during pretraining. We release the training artifacts, including model checkpoints and data.",
-      "url": "https://arxiv.org/abs/2611.26809",
-      "pdf": "https://arxiv.org/pdf/2611.26809",
-      "source": "arXiv cs.LG",
-      "group": "papers",
-      "published": "2026-11-23T05:00:00Z",
-      "tags": [
-        "LLM",
-        "模型训练"
-      ],
-      "origin": "official",
-      "title_zh": "从开始搜索:语言模型的搜索- Native Pretraining"
     },
     {
       "id": "54884a326c33bf0566cb",
@@ -5180,22 +5194,6 @@
       "title_zh": "一些记忆必须淡出:模型参数中的用户记忆的持久性和衰减"
     },
     {
-      "id": "2b317a62d713570dbfbe",
-      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
-      "summary": "arXiv:2611.25252v1 Announce Type: new Abstract: Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality instead reside in the agent that builds a model for each new task? We examine this question in prognostics and health management (PHM), where every model must work on unseen equipment. Our deployment-style benchmark, NextUnit-Bench, covers 24 public datasets split into 58 folds that hold out units or operating conditions; each agent has two hours to deliver an executable predictor, then run on the hidden units. First, frontier agents outperform AutoML, which reaches less than half the best agent's score, and faithful implementations of published methods on four datasets, of which only 6 of 30 beat the strongest agent's own design; published accuracies, where reproducible, rest on the papers' own conventions, and a single convention, capping the remaining life of test engines, can halve the reported error. Second, the agents' advantage is a design made on each machine's data; once made, a plain-text plan of a few hundred words carries most of the gap between two frontier agents, and given a weaker agent's plan, the strongest agent falls to that agent's level, often to identical predictions. Before touching the data, however, it matters little whose plan an agent carries out, and domain toolkits appear to help neither: what sets the strongest apart is how much it learns from the data. Third, such designs reach only implementers that can execute them: given the strongest agent's designs, a locally deployable open-weight model delivers half as often, even when they are lightened, and scores no higher than without them. Generality, we argue, is not disappearing but moving, from the model to the modeler.",
-      "url": "https://arxiv.org/abs/2611.25252",
-      "pdf": "https://arxiv.org/pdf/2611.25252",
-      "source": "arXiv cs.LG",
-      "group": "papers",
-      "published": "2026-11-21T05:00:00Z",
-      "tags": [
-        "Agent",
-        "LLM"
-      ],
-      "origin": "official",
-      "title_zh": "将通用性从模型移到模型:PHM的LLM代理商在部署-型式基准上"
-    },
-    {
       "id": "ba3e3595ac42cc2e852f",
       "title": "Learning to Verify: Signature-Guided Training for Adaptive Adversarial Detection",
       "summary": "arXiv:2611.25271v1 Announce Type: new Abstract: Adversarial example detectors often fail when attackers explicitly attempt to bypass them. We propose a dual-model approach that keeps the original classifier fixed and trains a separate verifier to assess its predictions. During training, we identify patterns of internal neural network activations that distinguish genuine examples of each class from adversarial examples targeting that class. These patterns, called activation signatures, guide the generation of challenging adversarial examples that mislead the classifier, challenge the verifier, and internally resemble the target class. The verifier learns to recognize these examples while preserving its performance on clean inputs through knowledge distillation. At inference, the verifier evaluates the classifier's prediction without requiring activation signatures. We evaluate the approach on publicly available datasets against several adaptive attacks, including attacks unseen during training. The proposed verifier substantially outperforms directly attacked confidence-based and feature-based detectors under the evaluated L-infinity attacks. Ablation studies show that adaptive verifier training is the main source of this improvement, while signature guidance primarily benefits clean accuracy. Additional L2 evaluations reveal limitations in robustness across perturbation types.",
@@ -5938,6 +5936,22 @@
       "title_zh": "引入Gemini4 Neon"
     },
     {
+      "id": "1559e75eb74df772606f",
+      "title": "Search From the Start: Search-Native Pretraining for Language Models",
+      "summary": "Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on predicting static text, with search capabilities typically introduced during post-training. We propose Search-Native Pretraining as a practical route to teach search capability during pretraining from ordinary text corpora. Specifically, we augment pretraining corpus at scale with web-search queries and retrieve web response using a local index. Training on this augmented corpus teaches models to generate search calls and incorporate retrieved evidence during language modeling. Across Wikipedia and DCLM-Edu corpora and 360M to 3.3B parameter scales, search-pretrained models (\"QueryLM\") show improved performance on knowledge-intensive tasks and higher steerability toward the retrieved evidence. Crucially, their advantage persists after supervised fine-tuning of both search-pretrained and conventionally pretrained models, indicating that the tested post-training procedures do not fully recover the capabilities developed during pretraining. Throughout our experiments, we find that a 1.4B QueryLM consistently beats or matches the performance of a FLOP-matched 3.3B baseline model across all knowledge intensive tasks. These results establish search-pretraining as a practical way to develop foundational search capabilities during pretraining. We release the training artifacts, including model checkpoints and data.",
+      "url": "https://huggingface.co/papers/2611.26809",
+      "pdf": "https://arxiv.org/pdf/2611.26809",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-18T19:00:00.000Z",
+      "tags": [
+        "LLM",
+        "模型训练"
+      ],
+      "origin": "official",
+      "title_zh": "从开始搜索:语言模型的搜索- Native Pretraining"
+    },
+    {
       "id": "a016e1388864344fd647",
       "title": "Time Series Structure Learning with Local Causal Parent Discovery",
       "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work introduces Iterative Temporal Parent Discovery (ITPD): a sound and complete constraint-based procedure for causal structure learning on multivariate time series with causal nonstationarity. ITPD takes a local-to-global learning approach that discovers the global graph by sequentially discovering the parent set for each variable. ITPD exploits temporal structural priors, graph partitioning, and the local Markov condition to swap higher-order conditional independence tests for lower-order alternatives. With an exact oracle, ITPD performed the least number of tests and used the smallest average conditioning set sizes relative to baselines. In benchmarking simulations, ITPD sat on the Pareto frontier with respect to F1 and wall-clock time and was faster than baselines on large graphs (geq 1000 nodes). For graphs with 2000 nodes, ITPD ran 2.3times, 9.1times, and 40.9times faster than iterative IAMB, DF-PC, and PCMCI, respectively.",
@@ -6375,6 +6389,22 @@
       "title_zh": "使用 OpenAI 模型推进芯片设计"
     },
     {
+      "id": "87d2ada3fd9463e4baa6",
+      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+      "summary": "Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality instead reside in the agent that builds a model for each new task? We examine this question in prognostics and health management (PHM), where every model must work on unseen equipment. Our deployment-style benchmark, NextUnit-Bench, covers 24 public datasets split into 58 folds that hold out units or operating conditions; each agent has two hours to deliver an executable predictor, then run on the hidden units. First, frontier agents outperform AutoML, which reaches less than half the best agent's score, and faithful implementations of published methods on four datasets, of which only 6 of 30 beat the strongest agent's own design; published accuracies, where reproducible, rest on the papers' own conventions, and a single convention, capping the remaining life of test engines, can halve the reported error. Second, the agents' advantage is a design made on each machine's data; once made, a plain-text plan of a few hundred words carries most of the gap between two frontier agents, and given a weaker agent's plan, the strongest agent falls to that agent's level, often to identical predictions. Before touching the data, however, it matters little whose plan an agent carries out, and domain toolkits appear to help neither: what sets the strongest apart is how much it learns from the data. Third, such designs reach only implementers that can execute them: given the strongest agent's designs, a locally deployable open-weight model delivers half as often, even when they are lightened, and scores no higher than without them. Generality, we argue, is not disappearing but moving, from the model to the modeler.",
+      "url": "https://huggingface.co/papers/2611.25252",
+      "pdf": "https://arxiv.org/pdf/2611.25252",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-17T19:00:00.000Z",
+      "tags": [
+        "Agent",
+        "LLM"
+      ],
+      "origin": "official",
+      "title_zh": "将通用性从模型移到模型:PHM的LLM代理商在部署-型式基准上"
+    },
+    {
       "id": "748514f40160ee147dba",
       "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
       "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 days. Each system predicted an original win, a variant win, or an inconclusive result. Page roles were masked and recorded outcomes were withheld during inference. Squoosh UX-1, a model fine-tuned on human browsing data, simulated 1,000 shoppers per arm and correctly classified 267 of 318 outcomes (84.0%, 95% Wilson interval 79.5-87.6%, treating experiments as independent). Qwen3 Next 80B, the strongest general-purpose configuration on outcome accuracy, correctly classified 196 of 318 (61.6%). UX-1 favored the variant in 126 experiments. In the live tests, 118 of those variants won (93.7%), four lost, and four had inconclusive results. The remaining 192 experiments included 19 additional variant wins.",
@@ -6636,6 +6666,22 @@
       "title_zh": "AeroRSI: 空中视野-语言导航的回溯自我改进"
     },
     {
+      "id": "cefce66afd6abc4e4bae",
+      "title": "Intent Contracts: Taking Tools Away from Agents",
+      "summary": "Intent contracts are an authorization interface for tool-using LLM agents in which the planning model holds no tools. For each step it submits a short logged contract: a goal, a verbatim quotation of the user, and scope fields. Code validates the contract, and a small trusted model checks it against the user's words and writes the tool call itself. Provided the validation and dispatch code is correct, every executed call is written by the trusted model, the planner's influence on a call is confined to a contract logged before it, and the trusted side decides how much of a request to carry out. We compare contracts with two reviewers of planner-written commands: one sees only the user's words and the command, the information boundary of a reasoning-blind permission classifier, and one also sees the planner's goal and a checked quotation. With gpt-6.1-terra as planner and GLM-5.3-Flash as the trusted model on three AmPermBench task families, every object changed under contracts is named in the goal of the contract that produced the change; under review the planner names objects in its commands and rarely in its goals. When the planner adds work the user never asked for, contracts complete the user's task in 27/30 runs and the intent-visible reviewer in 16/30, because a reviewer can only refuse a whole command. Contracts do not reduce unauthorized actions. They are indistinguishable from blind review, and once the benchmark's environment terms are clarified, every condition that changes state hits a wrong target in 40-49% of those runs. That error is the planner's choice of objects for an ambiguous reference, which no trusted model here can see the environment to check; telling the executor to decline when unsure does not change it. We evaluate benign over-reach with one pair of models, not adversarial planners. We release the plugin and run records.",
+      "url": "https://huggingface.co/papers/2611.24025",
+      "pdf": "https://arxiv.org/pdf/2611.24025",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-17T19:00:00.000Z",
+      "tags": [
+        "Agent",
+        "LLM"
+      ],
+      "origin": "official",
+      "title_zh": "意向性合同:远离智能体的工具"
+    },
+    {
       "id": "8f6af8c44a4a1bfb5de3",
       "title": "Introducing GPT-6.2 Astra and Sol",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
@@ -6742,6 +6788,35 @@
       ],
       "origin": "official",
       "title_zh": "PURE: 多种模式身份匹配诊断基准"
+    },
+    {
+      "id": "9a9c183110ec9c689d0e",
+      "title": "Autoregressive View Model",
+      "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation. Through a unified in-context interface, AVM conditions on images or videos to generate short clips along a requested camera path. Visual context grounds reconstruction and interpolation, while a learned prior enables extrapolation into unseen regions. AVM retrieves relevant views from inputs and generated history to form a bounded active context. We fine-tune a pretrained bidirectional video diffusion transformer with flow matching in an N-in-1-out formulation. We then tune a causal model on its own rollouts to improve photorealism, reduce denoising steps, and limit long-horizon drift. We scale training to approximately 8M scenes and video clips. We evaluate generation capacity and scene persistence across benchmarks for camera control, text control, visual quality, dynamics, sparse and 4D reconstruction, and long-horizon consistency. The results demonstrate that AVM adapts to diverse input and output settings through one in-context interface.",
+      "url": "https://huggingface.co/papers/2611.23417",
+      "pdf": "https://arxiv.org/pdf/2611.23417",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-16T19:00:00.000Z",
+      "tags": [
+        "LLM",
+        "视频生成"
+      ],
+      "origin": "official",
+      "title_zh": "自动递归视图模型"
+    },
+    {
+      "id": "bd5498c6aa6dfdae5e65",
+      "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
+      "summary": "-05-X-03), Known Exploited Vulnerabilities (KEV) catalogs, and exploitation sightings. We introduce an evidence model implemented in Vulnerability-Lookup that selects the earliest evidence for each lifecycle event, distinguishes vulnerability-specific records, preserves date precision, and ensures traceability to original sources. Among 3,758 vulnerability identifiers with exploitation evidence, 98% have disclosure dates, while only 15.7% have patch evidence. Vendor-side dates required by VTEM are entirely absent. Most exploitation dates originate from catalog listings, including 1,041 entries associated with bulk catalog imports. After excluding these entries and ambiguous same-day observations, 59 vulnerabilities exhibit patch evidence following exploitation evidence, with a median interval of 7.6 days, predominantly between catalog listings and distributor fixes. Evidence traceability also exposes systematic measurement errors: one collector incorrectly classified exploit publications as active exploitation, accounting for 40% of initial exploitation dates, while another catalog assigned vulnerability publication timestamps to 11% of its listings. Our findings demonstrate that exploitation-to-patch intervals are computationally measurable, but their reliability depends on the availability, precision, and provenance of published evidence. We identify the additional disclosure, exploitation observation, and patch availability timestamps needed to improve vulnerability lifecycle measurements.",
+      "url": "https://huggingface.co/papers/2611.22479",
+      "pdf": "https://arxiv.org/pdf/2611.22479",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-16T19:00:00.000Z",
+      "tags": [],
+      "origin": "official",
+      "title_zh": "在修好前被利用过? 开放式、机器可读证据的脆弱程度"
     },
     {
       "id": "97087fe3c15c5fa6c7d3",
@@ -6919,13 +6994,28 @@
       "title_zh": "S1Cog Bench: 系统一个决策模型在认知实验上能够和不能做什么"
     },
     {
+      "id": "134767b4c21307a3ef01",
+      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+      "summary": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gameplay. Generative video models (VMs) now bear on all three. Neural networks already draw most of the pixels in shipped games, and recent world models let a lightweight game engine keep the world state while a VM turns the engine's coarse proxy video into final frames. These systems, however, treat the VM as a renderer that only restyles motion the engine has already authored, which leaves most of its generative capacity unused and limits the diversity a game can offer. We present GameWM, a design for next-generation games built on a clear division of labor. The GameWM-engine keeps what must be exact: rules, state, camera, and the layout of the world, which also spares the video model from having to remember it. The GameWM-VM generates what is expensive to author by hand: the look of the world and the detail of the player's interactions. One game mechanic can then be realized in many visually and physically distinct ways, while its outcome stays exactly as the engine computed it. To realize this division of labor, we build GameWM as a complete system: a data engine centered on interactions rather than exploration, an interface through which authored character sheets, scene art, and skill descriptions enter the model, and a model family from 5B to 33B parameters with a real-time causal variant for play. Together they give every player a fresh version of the same game: each player's own character, world, and skills turn the same engine mechanics into a new experience, while every event keeps the timing and outcome the GameWM-engine computed.",
+      "url": "https://huggingface.co/papers/2611.19247",
+      "pdf": "https://arxiv.org/pdf/2611.19247",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-13T19:00:00.000Z",
+      "tags": [
+        "视频生成"
+      ],
+      "origin": "official",
+      "title_zh": "GameWM: 以互动-Central World Models 为模式走向下一代电子游戏"
+    },
+    {
       "id": "3007f82c38138e35a867",
       "title": "Building strong safety evaluations",
       "summary": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
       "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
       "pdf": "",
-      "source": "Anthropic Engineering",
-      "group": "research",
+      "source": "Claude Blog",
+      "group": "news",
       "published": "2026-11-13T00:00:00Z",
       "tags": [],
       "origin": "third-party",
@@ -8802,22 +8892,6 @@
       ],
       "origin": "third-party",
       "title_zh": "WARP如何在Claude身上建立自我改进的代理"
-    },
-    {
-      "id": "11eace409cbddaf9fb02",
-      "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
-      "summary": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted collection or local token perturbation, often disrupting the inter-item semantic topology needed for recommendation. To address it, we introduce relational fidelity as the key objective, requiring semantic shift for privacy while preserving relative item relations for utility. Based on this principle, we propose prototype-guided progressive obfuscation (PGPO), which learns topology-aware obfuscation anchors for high-influence prototype words and propagates them through a static semantic graph. PGPO is optimized with GRPO using individual dissimilarity, structural consistency, and semantic constraint rewards. Experiments on two benchmarks show strong inversion defense with near-upper-bound recommendation performance. The code is available at https://github.com/Shengxiang-Lin/PGPO.",
-      "url": "https://huggingface.co/papers/2611.23236",
-      "pdf": "https://arxiv.org/pdf/2611.23236",
-      "source": "Hugging Face Daily Papers",
-      "group": "papers",
-      "published": "2026-08-25T20:00:00.000Z",
-      "tags": [
-        "LLM",
-        "模型训练"
-      ],
-      "origin": "official",
-      "title_zh": "PGPO: 隐私保护的原型指导性进步障碍强化建议"
     },
     {
       "id": "16b919027b43c28e9ba7",
@@ -11537,7 +11611,7 @@
     {
       "source": "Google Research",
       "ok": true,
-      "found": 41
+      "found": 42
     },
     {
       "source": "Microsoft Research",
@@ -11547,7 +11621,7 @@
     {
       "source": "Google DeepMind",
       "ok": true,
-      "found": 42
+      "found": 43
     },
     {
       "source": "Anthropic Research",
@@ -11562,7 +11636,7 @@
     {
       "source": "Claude Blog",
       "ok": true,
-      "found": 97
+      "found": 96
     },
     {
       "source": "OpenAI News",
@@ -11572,7 +11646,7 @@
     {
       "source": "Hugging Face Daily Papers",
       "ok": true,
-      "found": 57
+      "found": 56
     }
   ]
 }
