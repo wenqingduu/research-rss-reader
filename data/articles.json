@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T09:54:59.767350Z",
+  "updated_at": "2026-11-25T00:46:15.711812Z",
   "articles": [
     {
       "id": "2e38a12c5c074bb77324",
@@ -2540,22 +2540,6 @@
       "title_zh": "语言模式中可控制的社会态势的单一协调激活指导"
     },
     {
-      "id": "4f56c8d7f4c84b2befff",
-      "title": "KernelShift: Benchmarking Kernel Optimization Across Evolving Hardware",
-      "summary": "arXiv:2611.29590v1 Announce Type: new Abstract: Efficient AI computation depends on hardware that evolves over time, shifting the strategies needed to implement performant code. For CPU kernels, a key evolving factor is the set of available architectural extensions, which expose specialized hardware instructions that change the techniques used to optimize kernels. We study how effectively coding agents use these new, potentially unfamiliar extensions to write fast code. We introduce KernelShift, a benchmarking pipeline and a set of environments for evaluating coding agents in kernel optimization across evolving CPU architectures. Its agent-assisted, human-verified pipeline turns code repositories into benchmark instances, and its environments let agents optimize code with feedback from the target hardware. Using this pipeline, we construct 99 kernels from real-world, actively developed repositories (ncnn, llama.cpp, Arm SIMD Loops, and KleidiAI), including inference workloads derived from real model executions. KernelShift supports incorporating new kernels and hardware configurations as libraries and processors evolve. We evaluate agents with proprietary and open-weight models across progressively newer architectural extensions (Arm Neon, SVE, SVE2, and SME2), examining how performance changes as hardware evolves. On established extensions, agents beat the auto-vectorized compiler everywhere (2.4-19.8x) and exceed general-purpose libraries such as ncnn (getting up to 2.74x over its Neon kernels), but fall behind Arm's hand-tuned KleidiAI kernels (0.70x). In end-to-end inference of two LLMs, agent-written kernels achieve a 1.3-1.6x prefill speedup over llama.cpp's fast path. However, current agents do not yet reliably adapt to new extensions that require unfamiliar programming models, such as SME2's matrix tiles.",
-      "url": "https://arxiv.org/abs/2611.29590",
-      "pdf": "https://arxiv.org/pdf/2611.29590",
-      "source": "arXiv cs.CL",
-      "group": "papers",
-      "published": "2026-11-24T05:00:00Z",
-      "tags": [
-        "Agent",
-        "LLM"
-      ],
-      "origin": "official",
-      "title_zh": "KernelShift: 将 Kernel 优化适用于整个正在演变的硬件"
-    },
-    {
       "id": "dfeb9497c3a80d108cf0",
       "title": "Diversity in Unity, Theory in Practice: Hierarchical Multitask Benchmarks for Chinese Minority Languages",
       "summary": "arXiv:2611.29635v1 Announce Type: new Abstract: Despite the rapid advancement of LLMs, their performance on linguistically and culturally diverse minority languages within a unified national context remains underexplored. We present CMiLBench, a collection of hierarchical multitask benchmarks designed to translate theoretical notions of \"diversity in unity\" into practical evaluation for three representative Chinese minority languages: Tibetan, Mongolian, and Uyghur. CMiLBench comprises 24,663 instances across 5 difficulty levels and 17 tasks spanning foundational ability, cultural specificity, and safety alignment. We adopt existing dataset adaptation, minority knowledge construction, and high-resource benchmark translation to construct CMiLBench. We assess 14 state-of-the-art commercial and open-source LLMs with a hybrid framework that integrates automatic metrics and LLM-as-a-Judge scoring. The comparative experimental results reveal the gap between theoretical capability and practical utility. CMiLBench serves as a foundational and scalable evaluation resource to bridge the digital language divide and promote the informatization and intelligentization of low-resource Chinese minority languages.",
@@ -3151,21 +3135,6 @@
       "title_zh": "Dnown-Jev-2: 条款级回答-证据分类和对预训语言模型的有效推论"
     },
     {
-      "id": "a2e38bc0879095999850",
-      "title": "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
-      "summary": "arXiv:2611.31094v1 Announce Type: new Abstract: Looped Transformers iterate a shared block of layers to increase computation without adding parameters, offering stronger performance and test-time scaling. However, this power has so far required training from scratch and yielded only modest gains for LLMs. Finetuning existing models into loops is far cheaper, yet also brings only marginal gains over SFT. We propose LoopRes, an effective, scalable, and simple approach that turns loops into significant and consistent gains for pretrained LLMs. Building on Attention Residuals, LoopRes lets each looped layer attend directly to the outputs of earlier loops. Since these outputs are iterates of the same layers and become harder to tell apart, we give each a trainable loop-aware key that encodes its structural identity. Attending to all earlier loops also lets layers skip intermediate ones, so we restrict each layer to a residual window of the latest W loops, forcing every loop to build incrementally on recent ones. Across 6 pretrained LLMs from 3 model families and 9 benchmarks, LoopRes delivers significant and consistent gains: at 2x compute, it improves Qwen3-1.7B-Base by 29.1% over SFT, more than doubling the gain of the state-of-the-art baseline. The gains hold on larger models up to 30B and across all three families. More importantly, from 1.7B to 8B, LoopRes scales more steeply than SFT as compute grows, reaching a higher ceiling while needing less compute on long outputs. These results establish LoopRes as an effective looping approach, delivering both better performance and better test-time scaling.",
-      "url": "https://arxiv.org/abs/2611.31094",
-      "pdf": "https://arxiv.org/pdf/2611.31094",
-      "source": "arXiv cs.CL",
-      "group": "papers",
-      "published": "2026-11-24T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "origin": "official",
-      "title_zh": "将循环在预训LLMs中的力量与循环残余解锁"
-    },
-    {
       "id": "0fe1ada3528a46a6af67",
       "title": "Look Back, Draft Ahead: Corrective Prefix Attention for Parallel Speculative Decoding",
       "summary": "arXiv:2611.31112v1 Announce Type: new Abstract: Parallel speculative decoders propose an entire token block at once, yet one early inconsistency can cause the target to reject its remaining suffix. We introduce Corrective Prefix Attention (CPA), which combines prefix-aware selection with autoregressive supervision to improve these parallel drafts. CPA lets each candidate attend to earlier choices within the block. Fixed candidate shortlists allow all pairwise interactions to be computed before selection, reducing the sequential walk to table lookups, accumulation and lightweight scoring rather than repeated neural evaluations. An auxiliary autoregressive loss trains the shared backbone on clean prefixes without adding an inference pass. Across eight math, code and dialogue benchmarks with Qwen3-4B and Qwen3-8B targets on Ascend NPUs, CPA commits 13--15\\% more tokens per verification round than DSpark and 25--26\\% more than DFlash. Its mean speedups reach $3.35\\times$ and $3.37\\times$ under greedy decoding and $2.86\\times$ under sampling for both targets. Ablations support both components, while capacity sweeps demonstrate that greater acceptance alone does not guarantee faster decoding. These results motivate correcting parallel proposals with causal information while keeping sequential computation inexpensive.",
@@ -3192,23 +3161,6 @@
       "tags": [],
       "origin": "official",
       "title_zh": "Deneb-Vritra:通过封杀Via恢复Token代表及注意审查的描述、边缘和名称"
-    },
-    {
-      "id": "18533d0f6961fad9717e",
-      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
-      "summary": "arXiv:2611.31198v1 Announce Type: new Abstract: Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query types, evidence formats, and failure modes are encountered in the wild. Human practitioners, by contrast, cope with insufficient tools by fashioning new ones from familiar parts and reusing them across tasks. Inspired by this, we propose ToolSmith, an automatic tool-generation framework that grows and reuses modules on top of a lean base tool library. We evaluate ToolSmith on three in-domain multimodal search benchmarks and ten out-of-domain benchmarks under a VLM-as-a-Judge protocol. ToolSmith consistently improves over the base library across deployed agents of varying scales, with larger backbones reaping greater gains, demonstrating the scalability of the approach. Our code and data are available at https://threesr.github.io/toolsmith/.",
-      "url": "https://arxiv.org/abs/2611.31198",
-      "pdf": "https://arxiv.org/pdf/2611.31198",
-      "source": "arXiv cs.CL",
-      "group": "papers",
-      "published": "2026-11-24T05:00:00Z",
-      "tags": [
-        "Agent",
-        "LLM",
-        "多模态"
-      ],
-      "origin": "official",
-      "title_zh": "ToolSmith:多式联运搜索代理工具自动生成框架"
     },
     {
       "id": "67565b9fb8a0822423e3",
@@ -3271,22 +3223,6 @@
       ],
       "origin": "official",
       "title_zh": "STEGGUARD-LM:评估对LLM隐蔽通道的端到端防护"
-    },
-    {
-      "id": "b9c8ef732897ca34f0d6",
-      "title": "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
-      "summary": "arXiv:2611.28158v1 Announce Type: new Abstract: Language model agents are increasingly asked to run ongoing multi-day operations rather than finish isolated single-turn tasks. In daily operations, today's choices reshape later observations and cash constraints because empty shelves hide lost walk-in demand, short-shipped customers quietly shrink future orders weeks later, and emergency buying drains working capital. We introduce SMB Bench, a calibrated 90-day wholesale simulator with 18 causally paired tasks and an 859-run frontier trace dataset, to ask what experience and learning signal make an agent better at noticing, attributing, and acting on the delayed consequences of its own decisions in unseen businesses. Across 16 frontier models, only 3 outperform a fixed buying rule; models often record a relevant diagnosis in their notes without changing later purchases in time, showing that diagnosing a problem, changing behavior, and improving a business are separate achievements. To study how experience improves those failures in an open model (Qwen3.8-27B), we used training-business records to identify operational rules and archived frontier quarters as starting states to continue from rather than transcripts to copy. On an unseen test business under identical evaluation instructions, the trained policy followed customer-protection commitments more consistently and reduced severe-loss quarters, while the additional profit benefit remained uncertain. Carrying those commitments through the quarter exposed the cost of fulfilling them, as early-quarter stocking habits left the buyer relying on emergency supply and a deteriorating supplier. The results separate recognizing a delayed effect, acting on it consistently, and coordinating surrounding decisions so that the response improves profit. SMB Bench connects these observations to a learning method by turning archived decisions and their consequences into reusable training experience.",
-      "url": "https://arxiv.org/abs/2611.28158",
-      "pdf": "https://arxiv.org/pdf/2611.28158",
-      "source": "arXiv cs.LG",
-      "group": "papers",
-      "published": "2026-11-24T05:00:00Z",
-      "tags": [
-        "Agent",
-        "LLM"
-      ],
-      "origin": "official",
-      "title_zh": "计量和教授语言模型智能体以采取行动消除延迟后果"
     },
     {
       "id": "36c440defe6b837be453",
@@ -6107,25 +6043,6 @@
       "title_zh": "选择什么返回 : 对象- 助理 KV 内存用于互动视频生成中选择召回"
     },
     {
-      "id": "2f6ea18524574266e728",
-      "title": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
-      "summary": "arXiv:2611.28167v1 Announce Type: new Abstract: Answering questions over days or weeks of video requires searching for scattered clues across long timelines. Existing video agents rely on complex memory graphs and fixed retrieval pipelines, which restrict how the agent can search. We propose VideoJSON, a minimal harness for ultra-long video understanding that keeps the memory simple and lets a coding agent write its own search programs. During indexing, a vision-language model turns each minute of video into a single JSON record containing a dense caption and structured fields such as events, entities, places, and speech transcripts. At query time, the agent writes Python or Bash programs in a sandboxed container to filter, link, and read these records over multiple steps, without task-specific training or raw video access. On four ultra-long video benchmarks, VideoJSON with DeepSeek V4.1 Flash outperforms MAGIC-Video by 7.0, 20.0, and 24.75 points on EgoLifeQA, Ego-R1-Bench, and MM-Lifelong Week, and beats the best prior EgoMemReason score by 12.6 points. Across four policy models of increasing capability, VideoJSON's average score rises by up to 11.58 points over the weakest model, compared with at most 5.50 points for MAGIC-Video. Ablations show that both agentic code search and the structured JSON records drive these gains, while adding hourly summaries, extra tools, or video access changes the average score by less than 1.5 points. In addition, fine-tuning Qwen-3.5-Flash on 64 VideoJSON trajectories from an unrelated 100-hour livestream improves its MM-Lifelong scores by up to 8.25 points. Code will be open-sourced after publication.",
-      "url": "https://arxiv.org/abs/2611.28167",
-      "pdf": "https://arxiv.org/pdf/2611.28167",
-      "source": "arXiv cs.CV",
-      "group": "papers",
-      "published": "2026-11-24T05:00:00Z",
-      "tags": [
-        "Agent",
-        "RAG",
-        "LLM",
-        "多模态",
-        "模型训练"
-      ],
-      "origin": "official",
-      "title_zh": "VideoJSON:超长视频理解的最小调取目的-构建记忆"
-    },
-    {
       "id": "3d5fe8d766b2ae9d1b3d",
       "title": "BReD: BEV Residual Diffusion for Feed-Forward Road Gaussian Reconstruction",
       "summary": "arXiv:2611.28191v1 Announce Type: new Abstract: Accurate road surface reconstruction is essential for autonomous-driving mapping and simulation, but existing methods trade reconstruction quality for cross-scene inference. Optimization-based methods recover detailed surfaces through costly per-scene optimization, while feed-forward methods lack road-specific constraints and often produce large elevation errors. We propose \\textbf{BReD}, a feed-forward framework for reconstructing road elevation, appearance, and semantics from calibrated six-camera sequences. BReD first estimates coarse elevation through LiDAR-supervised depth learning and BEV lifting, using only cameras at inference. A lightweight BEV residual diffusion model then conditions elevation refinement on a camera-derived depth--elevation discrepancy and elevation-aware image features. Diffusion-indexed perturbations expose the model to different discrepancy corruption levels during training, while inference performs one deterministic refinement from the clean discrepancy. The refined elevations are temporally aggregated to anchor road-aligned Gaussians, whose attributes are predicted by a geometry-prior-guided decoder without test-time optimization. On four held-out nuScenes scenes, BReD achieves 7.34 cm elevation RMSE and 90.92\\% semantic mIoU, compared with 14.43 cm for RoGS without test-time LiDAR and 8.88 cm for its test-time-LiDAR-assisted variant; both RoGS variants require per-scene optimization.",
@@ -6910,6 +6827,109 @@
       "tags": [],
       "origin": "official",
       "title_zh": "世界模式"
+    },
+    {
+      "id": "f5de3c6bfb6714803e93",
+      "title": "Gaze Graphs: A Scene-Level Representation of Visual Attention in the Operating Room",
+      "summary": "arXiv:2611.28901v1 Announce Type: new Abstract: Purpose: Analyzing clinicians' visual attention from exocentric camera views can support surgical scene understanding without requiring wearable eye trackers. However, existing gaze-following research in the operating room (OR) estimates only 2D gaze locations without identifying attended scene entities or localizing gaze targets in 3D space. In this work, we investigate gaze graphs as a scene-level representation of visual attention that connects clinicians to attended scene entities, and evaluate their utility for fine-grained surgical action recognition and semantic scene graph (SSG) generation. Methods: We extend the public EgoExOR dataset with gaze annotations to create EgoExOR-Gaze, the first benchmark for multi-view gaze graph generation in the OR. We propose a novel architecture that jointly estimates 3D gaze targets and predicts attended entities using only exocentric camera views. Specifically, our approach exploits 3D gaze geometry to sample local visual features across multiple views for attended entity prediction. We further utilize predicted gaze graphs for fine-grained surgical action recognition and SSG generation. Results: For gaze graph generation, our model outperforms both exocentric-only and combined exocentric-egocentric baselines. For surgical action recognition, our model incorporating predicted gaze graphs outperforms both exocentric and egocentric baselines across all evaluated metrics, with particularly strong gains in temporal metrics. For SSG generation, incorporating gaze graphs improves macro-F1 from 0.42 to 0.52 compared to exocentric inputs alone, although performance remains below that achieved with egocentric inputs. Conclusion: Our results demonstrate the value of gaze graphs for surgical action recognition and SSG generation, highlighting the importance of explicitly modeling scene-level visual attention even when egocentric views are unavailable.",
+      "url": "https://arxiv.org/abs/2611.28901",
+      "pdf": "https://arxiv.org/pdf/2611.28901",
+      "source": "arXiv cs.CV",
+      "group": "papers",
+      "published": "2026-11-24T05:00:00Z",
+      "tags": [],
+      "origin": "official",
+      "title_zh": "Gaze 图:手术室视觉注意力的场景级表现"
+    },
+    {
+      "id": "65b16f0978195f153d78",
+      "title": "From Dense to Sparse: Morton-Ordered Sparse Mapping for Efficient 3D Mesh Generation",
+      "summary": "arXiv:2611.28913v1 Announce Type: new Abstract: Unified 3D understanding and generation require compact sequences preserving spatial structure. Dense grids yield long sequences, while serialization can separate spatial neighbors. We propose Sparse Proximity Aware Compression (SPAC), a shared sparse SDF vocabulary combining sparse encoding with reversible spatial merging. A Sparse SDF VQ-VAE quantizes near-surface features while retaining explicit coordinates, using reconstruction supervision for surface fidelity and detail. 3D Byte-Pair Encoding (3D-BPE) merges recurring face-adjacent patterns using relative offsets before serialization. Macro tokens expand exactly into leaf tokens and coordinates. After Morton serialization, a shared LLM reads geometry for captioning and predicts tokens that decode into meshes for text-conditioned generation. With fixed geometry, architecture, and band width in voxels, sparse encoder cost grows approximately quadratically with resolution. 3D-BPE reduces mean complete LLM sequence length by 45.4 percent, including coordinates, text, and control tokens. SPAC achieves strong results in both 3D captioning and text-conditioned mesh generation. Ablations show gains over leaf tokens and Morton 1D-BPE in both tasks. The project page at https://yangjj007.github.io/spac/ .",
+      "url": "https://arxiv.org/abs/2611.28913",
+      "pdf": "https://arxiv.org/pdf/2611.28913",
+      "source": "arXiv cs.CV",
+      "group": "papers",
+      "published": "2026-11-24T05:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "origin": "official",
+      "title_zh": "从 Dense 到 Sparse: Morton 命令的 Sparse 映射用于高效的 3D 网络生成"
+    },
+    {
+      "id": "b2208f46cc3a5d91e6ed",
+      "title": "Learning Land-Surface Hydrology World Model from Satellite Observations",
+      "summary": "arXiv:2611.28963v1 Announce Type: new Abstract: A world model should tell us not only what will happen, but what would happen under a different action. Learned Earth models now forecast remarkably well, yet forecast skill says little about what their state means or how it responds to a changed driver. We build LandWM, a world model of land-surface water in which rain is the action, learned from seven years of SMAP and CYGNSS observations: physical observation operators tie its latent state to soil water, and a mass-conserving balance governs how that state responds to rain. Over the U.S. Southern Great Plains, the model, never shown a soil-moisture value, tracks 28 in-situ probes as well as the operational SMAP Level-4 product, even from CYGNSS alone, and a storm added to the forcing of a station's cell wets its soil as natural storms wet the probes. Replace either piece and the forecasts stay, but the meaning goes: with neural operators, only a probe fitted to the stations finds the soil water; with a generic recurrent transition, rain on a single cell barely moves it. Yet when the same rain covers the whole region the two transitions swap roles, and the conserving one responds too weakly. Grounding makes a world model readable; its response to actions must be tested under more than one kind of intervention.",
+      "url": "https://arxiv.org/abs/2611.28963",
+      "pdf": "https://arxiv.org/pdf/2611.28963",
+      "source": "arXiv cs.CV",
+      "group": "papers",
+      "published": "2026-11-24T05:00:00Z",
+      "tags": [],
+      "origin": "official",
+      "title_zh": "从卫星观测中学习地表水文学的世界模型"
+    },
+    {
+      "id": "2ef2a8ff5e27c06bcd96",
+      "title": "CLASP: Complementary Layer Selection and Profiling for Zero-Shot OOD Detection using Vision-Language Models",
+      "summary": "arXiv:2611.28986v1 Announce Type: new Abstract: Vision-language models (VLMs) enable zero-shot out-of-distribution (OOD) detection in medical imaging, yet existing approaches often rely on final-layer confidence or entropy-based layer selection, potentially missing complementary information. We show that low in-distribution (ID) confidence entropy does not reliably predict OOD discrimination. We introduce CLASP (Complementary Layer Selection and Profiling), an ID-only framework that jointly models layer--prompt responses and visual features. CLASP ranks visual encoder layers using Gaussian conditional mutual information and selects a compact subset through anchored spectral selection, without fixing the number of layers. It then combines the selected layer--prompt profiles with PCA-compressed visual embeddings and fits a single shrinkage-regularized Gaussian. OOD scores are computed using squared Mahalanobis distance, without fine-tuning, OOD training data, or test-time adaptation. Across histopathology, chest X-ray, and brain MRI benchmarks with UniMedCLIP and BioMedCLIP, CLASP performs strongly under varied distribution shifts. On MIDOG near-OOD, it achieves 87.54% AUROC with UniMedCLIP, outperforming confidence-based baselines; with BioMedCLIP, it remains competitive but trails visual-only Mahalanobis modeling. Ablations highlight the value of layer--prompt interactions and cross-feature dependencies, while exposing shift-dependent contributions and limitations under semantic shifts.",
+      "url": "https://arxiv.org/abs/2611.28986",
+      "pdf": "https://arxiv.org/pdf/2611.28986",
+      "source": "arXiv cs.CV",
+      "group": "papers",
+      "published": "2026-11-24T05:00:00Z",
+      "tags": [
+        "LLM",
+        "多模态",
+        "模型训练"
+      ],
+      "origin": "official",
+      "title_zh": "CLASP: 利用视野语言模型进行零热OD检测的补充层选择和剖面"
+    },
+    {
+      "id": "ead49dfffddf73e1300e",
+      "title": "Demystifying Classifier-Free Guidance for Auto-Regressive Image Generation",
+      "summary": "arXiv:2611.29002v1 Announce Type: new Abstract: Classifier-free guidance (CFG) has been widely adopted in autoregressive (AR) models for high-quality image generation. Despite its strong empirical performance, its mechanism in AR models remains unclear. This paper demystifies the mechanism of CFG through both empirical and theoretical studies. By examining the top-ranked semantics of different components in CFG, we show that texture information is primarily encoded in the difference between the conditional and unconditional logits, whereas both logits share previous-token repetition as their leading semantics. This strong repetition semantics obscures the desired texture information, causing greedy decoding from the conditional logits alone to produce nearly pure-color images. Through a training-dynamics analysis of shallow transformers, we prove that this shared repetition semantics does not arise from limitations or failures of pretraining, but instead originates from the texture sparsity of images. We further show that CFG improves generation quality by rectifying this repetition bias during inference. Motivated by the shared semantics between conditional and unconditional logits, we propose Attention Weight Reuse (AttnReuse), which reuses intermediate attention computations from the conditional-logit forward pass to accelerate the unconditional-logit computation. AttnReuse reduces about $25\\%$ of attention computation with little performance degradation across different models.",
+      "url": "https://arxiv.org/abs/2611.29002",
+      "pdf": "https://arxiv.org/pdf/2611.29002",
+      "source": "arXiv cs.CV",
+      "group": "papers",
+      "published": "2026-11-24T05:00:00Z",
+      "tags": [
+        "LLM",
+        "多模态",
+        "模型训练"
+      ],
+      "origin": "official",
+      "title_zh": "解密自递回式图像生成的解密分类器- 免费指导"
+    },
+    {
+      "id": "8befc30ac765ba8adae6",
+      "title": "MCP servers can now ship skills, run tasks, and more with Claude",
+      "summary": "MCP servers can now ship skills, run tasks, and more with Claude",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+      "pdf": "",
+      "source": "Claude Blog",
+      "group": "news",
+      "published": "2026-11-24T00:00:00Z",
+      "tags": [],
+      "origin": "third-party",
+      "title_zh": "MCP服务器现在可以运送技能,运行任务,还有更多与克洛德"
+    },
+    {
+      "id": "89a905d5eae9fa3ef5a8",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "summary": "",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "pdf": "",
+      "source": "OpenAI News",
+      "group": "news",
+      "published": "2026-11-24T00:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "origin": "official",
+      "title_zh": "iFood 如何在 15 000 个寄存器中进行编码"
     },
     {
       "id": "990f58ceeb055fd185ae",
@@ -11667,7 +11687,7 @@
     {
       "source": "Hugging Face Daily Papers",
       "ok": true,
-      "found": 57
+      "found": 59
     }
   ]
 }
