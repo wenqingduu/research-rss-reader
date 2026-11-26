@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T08:18:35.335814Z",
+  "updated_at": "2026-11-26T18:30:48.629365Z",
   "articles": [
     {
       "id": "81192ffd57959e210531",
@@ -572,22 +572,6 @@
       ],
       "origin": "official",
       "title_zh": "并非每个输入都需要一切: 统一专家 Gating, 模型 Cascades, 和代理 Orchestration"
-    },
-    {
-      "id": "56a087677cf27b556f6e",
-      "title": "Letting Models Manage Their Own Context: Where We Stand",
-      "summary": "arXiv:2611.34147v1 Announce Type: new Abstract: Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, \\emph{model-driven} context management, in which the model itself decides when and what to compact through a context API. We gave models control over their own context in \\nooa, NVIDIA's open source agent harness, and compared the two strategies on document research and machine learning engineering across context budgets from 8K to 512K tokens. Models that use the context API effectively reach higher accuracy, often with fewer input tokens, especially at tight budgets: \\textbf{GPT 6.1 nearly triples its score at a 32K budget} on OfficeQA Pro v2 (21\\%~$\\rightarrow$~56\\%), and \\textbf{Kimi gains with up to 41\\% fewer input tokens}. Models differ widely, however, in how often they use the API, how aggressively they compact, and when they start compacting, and prompt changes shift that timing. Finally, we show that \\textbf{inference engines can make model-driven edits cheaper}: by reusing the KV cache of the unchanged suffix after an edit, \\textbf{we cut prefill compute by up to 15\\% per request with no measurable change in accuracy}. Together, these results point to a new co-design frontier: models trained to manage their own context, served by inference engines that support KV cache editing.",
-      "url": "https://arxiv.org/abs/2611.34147",
-      "pdf": "https://arxiv.org/pdf/2611.34147",
-      "source": "arXiv cs.AI",
-      "group": "papers",
-      "published": "2026-11-26T05:00:00Z",
-      "tags": [
-        "Agent",
-        "LLM"
-      ],
-      "origin": "official",
-      "title_zh": "让模型管理自己的背景:我们站在哪里"
     },
     {
       "id": "0c967c5457f158cd3679",
@@ -1986,22 +1970,6 @@
       "title_zh": "注重事实:结构上不变量和事实敏感文本嵌入"
     },
     {
-      "id": "44b19dcefc03a3dcf167",
-      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
-      "summary": "arXiv:2611.33307v1 Announce Type: new Abstract: Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages, comparing each language with English on parallel items. Every model loses accuracy in every language, from about 2 points in high-resource languages to 8 in Tamil, while confidence falls only half as much: a threshold set for 95\\% accuracy in English yields 90% in Tamil. The size of the loss is set by the language and the base model rather than by leaderboard rank. In 81 controlled fine-tuning runs, task skill learned in English transfers to other languages and a few thousand target-language items narrow large losses, but neither more data nor full-parameter tuning closes them. Finally, the same test items are answered more accurately in all 23 benchmark--language pairs we compare when an LLM rather than a person translated them, so LLM-translated test sets understate the gap.",
-      "url": "https://arxiv.org/abs/2611.33307",
-      "pdf": "https://arxiv.org/pdf/2611.33307",
-      "source": "arXiv cs.CL",
-      "group": "papers",
-      "published": "2026-11-26T05:00:00Z",
-      "tags": [
-        "LLM",
-        "模型训练"
-      ],
-      "origin": "official",
-      "title_zh": "失译,不失信心:衡量和校准多种语文决策模式"
-    },
-    {
       "id": "3a21675c6364e1111d01",
       "title": "Open-Source FUTO Keyboard Layouts and Predictive Text for a Few Endangered Languages",
       "summary": "arXiv:2611.33432v1 Announce Type: new Abstract: We present open-source FUTO Keyboard layouts and predictive text dictionaries for five endangered Uralic languages: Erzya, Moksha, Komi-Zyrian, Livonian, and Skolt Sami. Existing Divvun Android keyboard layouts are converted automatically into the YAML format used by FUTO Keyboard. For predictive text, we construct weighted AOSP dictionaries using translated Finnish lemma frequencies together with morphological frequencies extracted from small target-language corpora using finite-state transducers. This combination provides a practical way to rank inflected word forms when large monolingual corpora are unavailable. The resulting resources offer reusable mobile keyboard support for endangered Uralic languages.",
@@ -2692,22 +2660,6 @@
       "title_zh": "DLAR: 大语言模型中后期理性的动态色谱控制"
     },
     {
-      "id": "7834e5f79ac5d6c90d67",
-      "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
-      "summary": "arXiv:2611.34363v1 Announce Type: new Abstract: Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database and pays only if all results match (strict form) or by the share matched (mean form). On 1,302 synthetic audit questions, the strict form lowers the share of buggy queries paid in full from 29.5% to 16.8% and of reward hacks from 54.1% to 1.9%, rejecting 0 of 2,847 correct queries; copies from a family-blind generator do about as well. In a controlled GRPO comparison on a 3.35B model with three seeds per arm, training on the mean form did not improve in-domain accuracy (8.4% vs 11.7%), because the two rewards disagreed on only 5-7% of rollouts; on Spider it gained 1.6 points. One seed reverses both signs, so single-seed reward comparisons mislead. Code: https://github.com/RishiiGamer2201/counterfactual-sql-rewards ; data, models, demo: https://huggingface.co/counterfactual-sql",
-      "url": "https://arxiv.org/abs/2611.34363",
-      "pdf": "https://arxiv.org/pdf/2611.34363",
-      "source": "arXiv cs.LG",
-      "group": "papers",
-      "published": "2026-11-26T05:00:00Z",
-      "tags": [
-        "Agent",
-        "模型训练"
-      ],
-      "origin": "official",
-      "title_zh": "单数据库奖励 Are Hackable:可信赖文本对SQL RL的反事实执行"
-    },
-    {
       "id": "f9982e1b2c657a99fa37",
       "title": "Any-Rate: Half-Bit Multi-Precision LLM Quantization with Coded Bit-Planes",
       "summary": "arXiv:2611.34402v1 Announce Type: new Abstract: Nested multi-precision quantization derives multiple precisions from a single checkpoint by reading only the leading bits of each weight, which makes it attractive for on-device deployment under varying memory and energy budgets. However, existing methods offer only integer bits, leaving large accuracy gaps between adjacent precisions and severe degradation at 2 bits. To address this, we propose Any-Rate, which serves 2-8 bits from one checkpoint, in half-bit steps over 2-4 bits. Any-Rate restricts some bit-planes to extended Hamming codewords in 8-weight blocks (0.5 bits per weight), shares one LUT per row across precisions, and encodes all precisions jointly with a separate target for each, reducing the loss from sharing bit-planes. Across four LLMs, Any-Rate achieves state-of-the-art accuracy among multi-precision methods at 2 and 3 bits, keeping 69% of FP16 accuracy at 2 bits, and is within one point of the best at 4 bits. It decodes about as fast as existing kernels, and an LPDDR energy model estimates up to 27% less energy at equal accuracy. Code is available at https://github.com/hoonki2002/Any-Rate.",
@@ -2780,22 +2732,6 @@
       ],
       "origin": "official",
       "title_zh": "一种模式,多种模式: 演化系统 迅捷的创意生成集"
-    },
-    {
-      "id": "bb834545ea072825f46a",
-      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
-      "summary": "arXiv:2611.34777v1 Announce Type: new Abstract: Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based policy gradient. A common remedy supplies complete solutions from a stronger model, but full trajectories are expensive and expose the learner to long off-policy histories. We introduce SPLICE, which constructs local training targets from failed current-policy trajectories online. For each all-fail group, a proposal model selects a splice point in a current-policy trajectory and generates several bounded options from that point. We estimate each option's value using repeated current-policy continuations, convert positive estimates into a return-weighted local target, and fit the current policy on the options. We evaluate SPLICE across two policy families on two long-horizon agent tasks, Software Engineering with SWE-bench Verified and Deep Research with BrowseComp-Plus. SPLICE outperforms GRPO and full-trajectory guidance baselines in all four settings, improving over GRPO by 2.8--9.8 percentage points. On initially failed SWE tasks, it raises GRPO's graduation rate by 10.8 percentage points. Further experiments show that SPLICE improves performance while reducing costly proposal-model computation.",
-      "url": "https://arxiv.org/abs/2611.34777",
-      "pdf": "https://arxiv.org/pdf/2611.34777",
-      "source": "arXiv cs.LG",
-      "group": "papers",
-      "published": "2026-11-26T05:00:00Z",
-      "tags": [
-        "Agent",
-        "模型训练"
-      ],
-      "origin": "official",
-      "title_zh": "当每一次推出失败时:将学习者有条件的选项复制到长视代理 RL"
     },
     {
       "id": "ae21e4264a08f37d7e75",
@@ -6905,6 +6841,69 @@
       "tags": [],
       "origin": "third-party",
       "title_zh": "将信件 API 移动到 Rust"
+    },
+    {
+      "id": "c36039d5180cec61c4aa",
+      "title": "Letting Models Manage Their Own Context: Where We Stand",
+      "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave models control over their own context in \\nooa, NVIDIA's open source agent harness, and compared the two strategies on document research and machine learning engineering across context budgets from 8K to 512K tokens. Models that use the context API effectively reach higher accuracy, often with fewer input tokens, especially at tight budgets: GPT 6.1 nearly triples its score at a 32K budget on OfficeQA Pro v2 (21\\%~rightarrow~56\\%), and Kimi gains with up to 41\\% fewer input tokens. Models differ widely, however, in how often they use the API, how aggressively they compact, and when they start compacting, and prompt changes shift that timing. Finally, we show that inference engines can make model-driven edits cheaper: by reusing the KV cache of the unchanged suffix after an edit, we cut prefill compute by up to 15\\% per request with no measurable change in accuracy. Together, these results point to a new co-design frontier: models trained to manage their own context, served by inference engines that support KV cache editing.",
+      "url": "https://huggingface.co/papers/2611.34147",
+      "pdf": "https://arxiv.org/pdf/2611.34147",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-24T19:00:00.000Z",
+      "tags": [
+        "Agent",
+        "LLM"
+      ],
+      "origin": "official",
+      "title_zh": "让模型管理自己的背景:我们站在哪里"
+    },
+    {
+      "id": "df14f5f2c801f9f88279",
+      "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+      "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database and pays only if all results match (strict form) or by the share matched (mean form). On 1,302 synthetic audit questions, the strict form lowers the share of buggy queries paid in full from 29.5% to 16.8% and of reward hacks from 54.1% to 1.9%, rejecting 0 of 2,847 correct queries; copies from a family-blind generator do about as well. In a controlled GRPO comparison on a 3.35B model with three seeds per arm, training on the mean form did not improve in-domain accuracy (8.4% vs 11.7%), because the two rewards disagreed on only 5-7% of rollouts; on Spider it gained 1.6 points. One seed reverses both signs, so single-seed reward comparisons mislead. Code: https://github.com/RishiiGamer2201/counterfactual-sql-rewards ; data, models, demo: https://huggingface.co/counterfactual-sql",
+      "url": "https://huggingface.co/papers/2611.34363",
+      "pdf": "https://arxiv.org/pdf/2611.34363",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-24T19:00:00.000Z",
+      "tags": [
+        "Agent",
+        "模型训练"
+      ],
+      "origin": "official",
+      "title_zh": "单数据库奖励 Are Hackable:可信赖文本对SQL RL的反事实执行"
+    },
+    {
+      "id": "30ee97537b7d58f036bb",
+      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
+      "summary": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based policy gradient. A common remedy supplies complete solutions from a stronger model, but full trajectories are expensive and expose the learner to long off-policy histories. We introduce SPLICE, which constructs local training targets from failed current-policy trajectories online. For each all-fail group, a proposal model selects a splice point in a current-policy trajectory and generates several bounded options from that point. We estimate each option's value using repeated current-policy continuations, convert positive estimates into a return-weighted local target, and fit the current policy on the options. We evaluate SPLICE across two policy families on two long-horizon agent tasks, Software Engineering with SWE-bench Verified and Deep Research with BrowseComp-Plus. SPLICE outperforms GRPO and full-trajectory guidance baselines in all four settings, improving over GRPO by 2.8--9.8 percentage points. On initially failed SWE tasks, it raises GRPO's graduation rate by 10.8 percentage points. Further experiments show that SPLICE improves performance while reducing costly proposal-model computation.",
+      "url": "https://huggingface.co/papers/2611.34777",
+      "pdf": "https://arxiv.org/pdf/2611.34777",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-24T19:00:00.000Z",
+      "tags": [
+        "Agent",
+        "模型训练"
+      ],
+      "origin": "official",
+      "title_zh": "当每一次推出失败时:将学习者有条件的选项复制到长视代理 RL"
+    },
+    {
+      "id": "f4bb49dc080ecfda0d38",
+      "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+      "summary": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the surrounding context. We call this interaction paradigm Ego Use. However, first-person observations are limited by the wearer's viewpoint and may provide incomplete or ambiguous evidence of ongoing activities. As new observations arrive, agents may need to revise their understanding of the physical context and user intent, and reassess whether prior digital actions remain valid. Whether current agents can reliably handle these changes remains insufficiently evaluated. We introduce EgoUseBench, a benchmark for evaluating Ego Use across three interaction settings with different levels of first-person context. Computer-Use relies on explicit instructions, Offline Ego Use provides prerecorded first-person context before execution, and Online Ego Use provides continuous observations as user intent evolves. Based on over 74 hours of real-world first-person recordings, we construct 693 tasks across the three interaction settings. To capture task evolution, we track first-person observations, user requirements, and website state separately. We further group tasks by how information changes during execution, resulting in three types: Graft (revised user requirements), Refresh (new first-person observations), and Clarify (agent-initiated information seeking). We evaluate advanced models and find that average success rates in Online Ego Use are 26.3% lower than in Computer-Use. This result reveals the difficulty of keeping task execution aligned with evolving first-person context and user intent.",
+      "url": "https://huggingface.co/papers/2611.34466",
+      "pdf": "https://arxiv.org/pdf/2611.34466",
+      "source": "Hugging Face Daily Papers",
+      "group": "papers",
+      "published": "2026-11-24T19:00:00.000Z",
+      "tags": [
+        "Agent"
+      ],
+      "origin": "official",
+      "title_zh": "EgoUses Bench:在第一个个人背景变化下计算计算机使用代理的基准"
     },
     {
       "id": "8befc30ac765ba8adae6",
@@ -11690,7 +11689,7 @@
     {
       "source": "Hugging Face Daily Papers",
       "ok": true,
-      "found": 58
+      "found": 59
     }
   ]
 }
